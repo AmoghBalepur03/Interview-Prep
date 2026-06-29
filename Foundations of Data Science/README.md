@@ -1,6 +1,6 @@
 # Foundations of Data Science — Notes
 
-A complete set of notes covering the linear algebra and optimization foundations behind data science and machine learning. Each topic is a self-contained Markdown file with full derivations, proofs, and LaTeX-formatted math.
+A complete set of notes covering the **linear algebra, optimization, and statistics/experimentation** foundations behind data science and machine learning. Each topic is a self-contained Markdown file with full derivations, proofs, and LaTeX-formatted math.
 
 > **Tip:** These render best in any Markdown viewer with LaTeX support (e.g. VS Code with a math preview extension, Obsidian, or GitHub).
 
@@ -22,6 +22,8 @@ The files are numbered in a logical learning sequence — linear-algebra foundat
 | 08 | [Steepest Descent](08_Steepest_Descent.md) | Exact line-search algorithm, residual orthogonality / zig-zag, convergence conditions, rate vs. condition number |
 | 09 | [Optimization Problems](09_Optimization_Problems.md) | $H$-norm constrained optimization, Cholesky reshaping of geometry, $H$-orthogonal projector construction |
 | 10 | [Principal Components Analysis](10_PCA.md) | Variance maximization = residual minimization duality, covariance eigenvectors as PCs, projection operator, $R^2$ variance explained, worked examples |
+| 11 | [Hypothesis Testing & A/B Testing](11_Hypothesis_Testing_and_AB_Testing.md) | Null/alternative, p-values, Type I/II error & power, z/t/chi-square/ANOVA, confidence intervals, **sample-size/MDE**, multiple testing (Bonferroni, BH-FDR), A/B design (OEC, guardrails, SRM), peeking & sequential testing, novelty/interference, **CUPED** & delta method, quasi-experiments |
+| 12 | [Causal Inference](12_Causal_Inference.md) | Potential outcomes (Rubin), ATE/ATT/CATE, SUTVA/ignorability/positivity, confounding & **Simpson's paradox**, DAGs (forks/colliders/mediators), backdoor criterion, propensity scores (matching/IPW/doubly-robust), **DiD**, **IV/2SLS**, **RDD** |
 
 ---
 
@@ -41,6 +43,11 @@ Inner Products / Orthogonality  ──►  Projections, Least Squares
             │
             ▼
               Principal Components Analysis (PCA)
+
+   Statistics & Experimentation pillar:
+   Hypothesis Testing ──► A/B Testing ──► Causal Inference
+   (z/t/chi²/ANOVA,      (OEC, power,     (potential outcomes,
+    power, CUPED)         SRM, peeking)    DAGs, IPW/DiD/IV/RDD)
 ```
 
 ---
@@ -50,3 +57,4 @@ Inner Products / Orthogonality  ──►  Projections, Least Squares
 - **Symmetric Positive Definite (SPD) matrices** are everywhere: they guarantee convexity, unique minima, valid inner products, and stable factorizations.
 - **Eigenvalues** drive everything — convergence speed (condition number), ellipsoid shapes, PCA variance, and recurrence growth rates.
 - **Projection** is the unifying geometric operation behind least squares, best approximation, constrained optimization, and PCA.
+- **Inference under uncertainty** — hypothesis testing, experimentation, and causal inference — turns data into trustworthy decisions; randomization (A/B) is the gold standard, with observational methods (IPW/DiD/IV/RDD) as fallbacks.

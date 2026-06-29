@@ -19,6 +19,8 @@ The files are numbered in a logical learning sequence — regression first, then
 | 05 | [Tree-Based Models](05_Tree_Based_Models.md) | Decision trees (ID3/C4.5/CART), regression trees (recursive binary splitting, RSS), classification trees (Gini, entropy, error rate), cost-complexity pruning, bagging & OOB, random forests, boosting, AdaBoost, BART, stacking |
 | 06 | [Neural Networks](06_Neural_Networks.md) | Feed-forward architecture, activations (sigmoid, ReLU), loss functions (MSE, cross-entropy), deep network computation, forward/backward flow, backpropagation (chain rule), optimization & regularization |
 | 07 | [XGBoost](07_XGBoost.md) | Regularized additive tree objective ($\gamma, \lambda, \alpha$), **second-order Taylor / Newton** boosting, closed-form leaf weight $-G_j/(H_j+\lambda)$ & structure score, **split gain** formula, exact greedy + approximate split finding, **weighted quantile sketch**, sparsity-aware (missing) splits, shrinkage & subsampling, $g_i/h_i$ for squared & logistic loss, L1 soft-thresholding, hyperparameters, XGBoost vs. GBM vs. RF |
+| 08 | [Recommender Systems](08_Recommender_Systems.md) | Explicit vs implicit feedback, content-based filtering, **neighborhood CF** (user/item, cosine/Pearson), **matrix factorization** ($\mu+b_u+b_i+p_u^{\top}q_i$) via SGD & **ALS**, implicit-feedback weighted ALS & **BPR**, factorization machines, **cold start**, evaluation (Precision/Recall@k, MAP, MRR, **NDCG**), popularity/position bias → two-tower |
+| 09 | [ML System Design](09_ML_System_Design.md) | End-to-end framework (framing → metrics → data/labels → features → model → offline/online eval → serving → monitoring), OEC & guardrails, **training–serving skew**, **multi-stage** candidate-gen→ranking→re-rank, calibration, imbalance, bias/feedback loops, **drift & retraining**, canonical designs (feed, search, **ads CTR**, fraud, forecasting) |
 
 ---
 
@@ -39,6 +41,9 @@ The files are numbered in a logical learning sequence — regression first, then
                        (deep nonlinear models)
 
    Unsupervised:  KNN (instance-based) · K-Means · EM / GMM
+
+   Applied ML:    Recommender Systems (CF / MF) ─► ML System Design
+                  (candidate-gen → ranking → serving → monitoring)
 ```
 
 ---
@@ -49,3 +54,4 @@ The files are numbered in a logical learning sequence — regression first, then
 - **Maximum likelihood / loss minimization** underlies logistic regression, GMMs, and neural networks.
 - **Ensembling** (bagging, random forests, boosting, stacking) reduces variance and/or bias by combining many weak learners.
 - **Regularization & validation** (cross-validation, pruning, dropout, OOB error) are the tools that keep models from overfitting.
+- **From model to system:** real applied ML is an end-to-end lifecycle — data/labels, features (avoid leakage & training–serving skew), multi-stage serving, online A/B evaluation, and monitoring for drift — not just model accuracy.
