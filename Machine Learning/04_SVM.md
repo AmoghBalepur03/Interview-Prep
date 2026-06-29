@@ -103,7 +103,7 @@ where $1 - y_i(w^T x_i + b)$ is how far the point is from satisfying the margin 
 
 ### Robustness and Decision Boundary
 
-- The decision boundary is still **linear**: $f(x) = \beta_0 + \beta_1 x_1 + \cdots + \beta_p x_p$; classify by $\operatorname{sign}(f(x))$.
+- The decision boundary is still **linear**: $f(x) = \beta_0 + \beta_1 x_1 + \cdots + \beta_p x_p$; classify by $\mathrm{sign}(f(x))$.
 - **Support vectors:** observations on or violating the margin; the classifier depends only on these → robust to distant points ("outliers").
 - **Comparison to other methods:**
   - LDA and QDA depend on **all** data points (modeling class means and variances).

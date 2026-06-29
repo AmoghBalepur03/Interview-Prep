@@ -18,6 +18,7 @@ The files are numbered in a logical learning sequence — regression first, then
 | 04 | [Support Vector Machines](04_SVM.md) | Hyperplanes, maximal margin classifier, support vectors, soft-margin SVC (slack $\xi$, budget $C$), the kernel trick, dual form, common kernels (linear/poly/RBF/sigmoid), multiclass strategies |
 | 05 | [Tree-Based Models](05_Tree_Based_Models.md) | Decision trees (ID3/C4.5/CART), regression trees (recursive binary splitting, RSS), classification trees (Gini, entropy, error rate), cost-complexity pruning, bagging & OOB, random forests, boosting, AdaBoost, BART, stacking |
 | 06 | [Neural Networks](06_Neural_Networks.md) | Feed-forward architecture, activations (sigmoid, ReLU), loss functions (MSE, cross-entropy), deep network computation, forward/backward flow, backpropagation (chain rule), optimization & regularization |
+| 07 | [XGBoost](07_XGBoost.md) | Regularized additive tree objective ($\gamma, \lambda, \alpha$), **second-order Taylor / Newton** boosting, closed-form leaf weight $-G_j/(H_j+\lambda)$ & structure score, **split gain** formula, exact greedy + approximate split finding, **weighted quantile sketch**, sparsity-aware (missing) splits, shrinkage & subsampling, $g_i/h_i$ for squared & logistic loss, L1 soft-thresholding, hyperparameters, XGBoost vs. GBM vs. RF |
 
 ---
 
@@ -32,7 +33,7 @@ The files are numbered in a logical learning sequence — regression first, then
  (OLS, inference)           Softmax         (LDA/QDA/NB)     (SVM + kernels)
         │                                                        │
         └──────────────► Ensembles (Trees) ◄────────────────────┘
-                    Bagging / Random Forest / Boosting
+              Bagging / Random Forest / Boosting → XGBoost
                                 │
                          Neural Networks
                        (deep nonlinear models)

@@ -243,7 +243,7 @@ Unlike bagging/random forests, boosting does **not resample** the data. Trees ar
 1. Train a weak learner on the weighted data; compute its weighted error $\varepsilon_t = \sum_i w_i\, \mathbb{1}[h_t(x_i) \neq y_i]$.
 2. Compute its weight $\alpha_t = \tfrac12 \ln\!\frac{1 - \varepsilon_t}{\varepsilon_t}$ (better learners get more say).
 3. **Update sample weights:** increase weights of misclassified points, decrease for correct ones: $w_i \leftarrow w_i\, e^{-\alpha_t y_i h_t(x_i)}$, then renormalize.
-4. Final prediction: weighted vote $H(x) = \operatorname{sign}\!\left(\sum_t \alpha_t h_t(x)\right)$.
+4. Final prediction: weighted vote $H(x) = \mathrm{sign}\!\left(\sum_t \alpha_t h_t(x)\right)$.
 
 The reweighting makes each subsequent learner focus on examples the ensemble currently gets wrong.
 

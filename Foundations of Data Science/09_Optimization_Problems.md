@@ -71,4 +71,4 @@ $$
 
 - Constraints measured in a weighted $H$-norm call for an $H$-orthogonal projector, not the plain Euclidean one.
 - The Cholesky factor $H = L L^T$ provides the coordinate change between Euclidean and $H$-geometry.
-- The projector $P = L^{-T} Q L^T$ is idempotent and projects $H$-orthogonally onto $\operatorname{Null}(A)$: $Px$ stays in the null space while $x - Px$ is the minimal-$H$-norm complement.
+- The projector $P = L^{-T} Q L^T$ is idempotent and projects $H$-orthogonally onto $\mathrm{Null}(A)$: $Px$ stays in the null space while $x - Px$ is the minimal-$H$-norm complement.

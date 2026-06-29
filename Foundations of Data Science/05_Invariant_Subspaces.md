@@ -27,7 +27,7 @@ $\{0\}$ and $V$ are always invariant under any $T$.
 An **eigenspace** is the set of all eigenvectors associated with a particular eigenvalue, plus the zero vector. For eigenvalue $\lambda$:
 
 $$
-E_\lambda = \{ v \in V \mid T(v) = \lambda v \} = \operatorname{Null}(T - \lambda I)
+E_\lambda = \{ v \in V \mid T(v) = \lambda v \} = \mathrm{Null}(T - \lambda I)
 $$
 
 Each eigenspace is invariant: if $T(v) = \lambda v$, then $T(v) = \lambda v \in E_\lambda$.
@@ -37,7 +37,7 @@ Each eigenspace is invariant: if $T(v) = \lambda v$, then $T(v) = \lambda v \in 
 For eigenvalue $\lambda$, the **generalized eigenspace** is
 
 $$
-G_\lambda = \operatorname{Null}\big((T - \lambda I)^k\big) \quad (\text{for } k = \dim V)
+G_\lambda = \mathrm{Null}\big((T - \lambda I)^k\big) \quad (\text{for } k = \dim V)
 $$
 
 which is also invariant under $T$. (These are essential when $T$ is *not* diagonalizable — they give the Jordan form.)
@@ -47,7 +47,7 @@ which is also invariant under $T$. (These are essential when $T$ is *not* diagon
 For a vector $v$, the subspace
 
 $$
-\operatorname{span}\{v,\ T(v),\ T^2(v),\ \dots\}
+\mathrm{span}\{v,\ T(v),\ T^2(v),\ \dots\}
 $$
 
 is invariant under $T$ (applying $T$ just shifts to the next generator).
@@ -112,10 +112,10 @@ where $E_{\lambda_i}$ is the eigenspace for eigenvalue $\lambda_i$.
 Let $T \in \mathcal{L}(V)$ and let $(v_1, \dots, v_n)$ be a basis of $V$. The following are **equivalent**:
 
 1. The matrix of $T$ with respect to $(v_1, \dots, v_n)$ is **upper triangular**.
-2. $T v_k \in \operatorname{span}(v_1, \dots, v_k)$ for each $k = 1, \dots, n$.
-3. $\operatorname{span}(v_1, \dots, v_k)$ is **invariant** under $T$ for each $k = 1, \dots, n$.
+2. $T v_k \in \mathrm{span}(v_1, \dots, v_k)$ for each $k = 1, \dots, n$.
+3. $\mathrm{span}(v_1, \dots, v_k)$ is **invariant** under $T$ for each $k = 1, \dots, n$.
 
-This chain of nested invariant subspaces $\operatorname{span}(v_1) \subset \operatorname{span}(v_1, v_2) \subset \cdots \subset V$ is called a **flag**, and upper-triangularity is exactly the statement that $T$ preserves this flag.
+This chain of nested invariant subspaces $\mathrm{span}(v_1) \subset \mathrm{span}(v_1, v_2) \subset \cdots \subset V$ is called a **flag**, and upper-triangularity is exactly the statement that $T$ preserves this flag.
 
 ---
 

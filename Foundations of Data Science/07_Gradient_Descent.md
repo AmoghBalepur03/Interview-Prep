@@ -86,13 +86,13 @@ $$
 f(x) = \tfrac12 x^T A x - x^T b
 $$
 
-The gradient $\nabla f(x) = A x - b$, so the stationary point is at $A x^* = b$.
+The gradient $\nabla f(x) = A x - b$, so the stationary point is at $A x^{\ast} = b$.
 
 - **Energy norm:** $\|x\|_A = \sqrt{\langle x, A x \rangle}$.
 
 ### Error and residual recursion
 
-Define the **error** at step $k$: $\ e^{(k)} = x^* - x^{(k)}$, and the **residual**:
+Define the **error** at step $k$: $\ e^{(k)} = x^{\ast} - x^{(k)}$, and the **residual**:
 
 $$
 r^{(k)} = b - A x^{(k)} = A e^{(k)}
@@ -101,7 +101,7 @@ $$
 The error evolves as:
 
 $$
-e^{(k+1)} = x^* - x^{(k+1)} = x^* - x^{(k)} - \alpha^{(k)} r^{(k)} = e^{(k)} - \alpha^{(k)} A e^{(k)} = (I - \alpha^{(k)} A)\, e^{(k)}
+e^{(k+1)} = x^{\ast} - x^{(k+1)} = x^{\ast} - x^{(k)} - \alpha^{(k)} r^{(k)} = e^{(k)} - \alpha^{(k)} A e^{(k)} = (I - \alpha^{(k)} A)\, e^{(k)}
 $$
 
 So each coordinate along an eigenvector is scaled by $(1 - \alpha \lambda_i)$.
@@ -123,13 +123,13 @@ We want to minimize the worst-case contraction over all eigendirections. Since $
 $$
 |1 - \alpha \lambda_{\min}| = |1 - \alpha \lambda_{\max}|
 \quad\Longrightarrow\quad
-\alpha^* = \frac{2}{\lambda_{\min} + \lambda_{\max}}
+\alpha^{\ast} = \frac{2}{\lambda_{\min} + \lambda_{\max}}
 $$
 
-Plugging $\alpha^*$ back into the contraction factor gives:
+Plugging $\alpha^{\ast}$ back into the contraction factor gives:
 
 $$
-\rho^* = |1 - \alpha^* \lambda_{\max}| = |1 - \alpha^* \lambda_{\min}| = \frac{\lambda_{\max} - \lambda_{\min}}{\lambda_{\max} + \lambda_{\min}} = \frac{\kappa - 1}{\kappa + 1}
+\rho^{\ast} = |1 - \alpha^{\ast} \lambda_{\max}| = |1 - \alpha^{\ast} \lambda_{\min}| = \frac{\lambda_{\max} - \lambda_{\min}}{\lambda_{\max} + \lambda_{\min}} = \frac{\kappa - 1}{\kappa + 1}
 $$
 
 The error norm contracts **geometrically** by this factor each step.
@@ -168,7 +168,7 @@ $$
 |f(x) - f(y)| \le L\|x - y\| \quad\Longleftrightarrow\quad \|\nabla f(x)\| \le L
 $$
 
-3. **Bounded start:** the starting point is at most distance $R$ from a true solution, $\|x_1 - x^*\| \le R$.
+3. **Bounded start:** the starting point is at most distance $R$ from a true solution, $\|x_1 - x^{\ast}\| \le R$.
 
 ### Convergence proof (sketch of the $O(1/\sqrt{T})$ bound)
 
@@ -178,40 +178,40 @@ $$
 a^T b = \tfrac12\left(\|a\|^2 + \|b\|^2 - \|a - b\|^2\right)
 $$
 
-with $a = x_k - x_{k+1} = \eta \nabla f(x_k)$ and $b = x_k - x^*$, one expands the gradient inequality $f(x_k) - f(x^*) \le \nabla f(x_k)^T (x_k - x^*)$ into:
+with $a = x_k - x_{k+1} = \eta \nabla f(x_k)$ and $b = x_k - x^{\ast}$, one expands the gradient inequality $f(x_k) - f(x^{\ast}) \le \nabla f(x_k)^T (x_k - x^{\ast})$ into:
 
 $$
-f(x_k) - f(x^*) \le \frac{\|x_k - x^*\|^2 - \|x_{k+1} - x^*\|^2}{2\eta} + \frac{\eta}{2}\|\nabla f(x_k)\|^2
+f(x_k) - f(x^{\ast}) \le \frac{\|x_k - x^{\ast}\|^2 - \|x_{k+1} - x^{\ast}\|^2}{2\eta} + \frac{\eta}{2}\|\nabla f(x_k)\|^2
 $$
 
 **Sum** from $k = 1$ to $T$. The distance terms **telescope**, leaving:
 
 $$
-\sum_{k=1}^{T} \big(f(x_k) - f(x^*)\big) \le \frac{\|x_1 - x^*\|^2}{2\eta} + \frac{\eta}{2}\sum_{k=1}^T \|\nabla f(x_k)\|^2
+\sum_{k=1}^{T} \big(f(x_k) - f(x^{\ast})\big) \le \frac{\|x_1 - x^{\ast}\|^2}{2\eta} + \frac{\eta}{2}\sum_{k=1}^T \|\nabla f(x_k)\|^2
 $$
 
-Apply the **Lipschitz** bound $\|\nabla f(x_k)\| \le L$ and $\|x_1 - x^*\| \le R$:
+Apply the **Lipschitz** bound $\|\nabla f(x_k)\| \le L$ and $\|x_1 - x^{\ast}\| \le R$:
 
 $$
-\sum_{k=1}^{T} \big(f(x_k) - f(x^*)\big) \le \frac{R^2}{2\eta} + \frac{\eta L^2 T}{2}
+\sum_{k=1}^{T} \big(f(x_k) - f(x^{\ast})\big) \le \frac{R^2}{2\eta} + \frac{\eta L^2 T}{2}
 $$
 
 Since the **minimum is at most the average**:
 
 $$
-\min_{k \le T} f(x_k) - f(x^*) \le \frac{1}{T}\sum_{k=1}^T \big(f(x_k) - f(x^*)\big) \le \frac{R^2}{2\eta T} + \frac{\eta L^2}{2}
+\min_{k \le T} f(x_k) - f(x^{\ast}) \le \frac{1}{T}\sum_{k=1}^T \big(f(x_k) - f(x^{\ast})\big) \le \frac{R^2}{2\eta T} + \frac{\eta L^2}{2}
 $$
 
 **Optimize over $\eta$** (take derivative w.r.t. $\eta$ and set to zero):
 
 $$
--\frac{R^2}{2\eta^2 T} + \frac{L^2}{2} = 0 \quad\Longrightarrow\quad \eta^* = \frac{R}{L\sqrt{T}}
+-\frac{R^2}{2\eta^2 T} + \frac{L^2}{2} = 0 \quad\Longrightarrow\quad \eta^{\ast} = \frac{R}{L\sqrt{T}}
 $$
 
 Substituting back gives the classical bound:
 
 $$
-\boxed{\ \min_{k \le T} f(x_k) - f(x^*) \le \frac{R L}{\sqrt{T}}\ }
+\boxed{\ \min_{k \le T} f(x_k) - f(x^{\ast}) \le \frac{R L}{\sqrt{T}}\ }
 $$
 
 i.e. the famous $O(1/\sqrt{T})$ convergence rate for (sub)gradient descent on general convex Lipschitz functions.
@@ -223,6 +223,6 @@ i.e. the famous $O(1/\sqrt{T})$ convergence rate for (sub)gradient descent on ge
 ## Key Takeaways
 
 - Fixed-step GD: $x_{k+1} = x_k - \eta \nabla f(x_k)$; stability requires $\eta \le 2/\lambda_{\max}$.
-- On quadratics, error decays mode-by-mode by $(1 - \alpha\lambda_i)$; optimal $\alpha^* = 2/(\lambda_{\min}+\lambda_{\max})$ giving rate $\frac{\kappa-1}{\kappa+1}$.
+- On quadratics, error decays mode-by-mode by $(1 - \alpha\lambda_i)$; optimal $\alpha^{\ast} = 2/(\lambda_{\min}+\lambda_{\max})$ giving rate $\frac{\kappa-1}{\kappa+1}$.
 - The condition number $\kappa = \lambda_{\max}/\lambda_{\min}$ governs speed: large $\kappa$ = slow zig-zag.
-- For general convex Lipschitz $f$, GD achieves $O(1/\sqrt{T})$ with $\eta^* = R/(L\sqrt{T})$.
+- For general convex Lipschitz $f$, GD achieves $O(1/\sqrt{T})$ with $\eta^{\ast} = R/(L\sqrt{T})$.

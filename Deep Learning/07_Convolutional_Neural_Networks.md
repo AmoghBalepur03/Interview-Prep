@@ -23,12 +23,12 @@ An object (e.g. a cat) is a cat regardless of **where** it appears in the image.
 
 **Continuous:**
 $$
-(f * g)(x) = \int f(z)\, g(x - z)\, dz
+(f \ast g)(x) = \int f(z)\, g(x - z)\, dz
 $$
 
 **Discrete:**
 $$
-(f * g)(i) = \sum_a f(a)\, g(i - a)
+(f \ast g)(i) = \sum_a f(a)\, g(i - a)
 $$
 
 This is the **"flip and slide"** definition: one function ($g$, the kernel) is flipped and slid over the other ($f$, the signal). At each position, the integral/sum measures the **overlap** between $f$ and the flipped $g$.
@@ -131,7 +131,7 @@ Setup: convolution between input $X$ and filter $F$ gives output $O$ (horizontal
 Expanding the chain rule over all output positions and substituting the local gradients, the gradient of the loss w.r.t. the filter turns out to be a **convolution between the input $X$ and the loss gradient $\partial L / \partial O$**:
 
 $$
-\frac{\partial L}{\partial F} = X * \frac{\partial L}{\partial O}
+\frac{\partial L}{\partial F} = X \ast \frac{\partial L}{\partial O}
 $$
 
 ### Gradient w.r.t. the input
@@ -155,4 +155,4 @@ $$
 - Kernels span **all input channels** (3D); using many kernels yields many **output channels** (feature maps). **1×1 convs** mix channels cheaply and add nonlinearity.
 - **Padding** controls output size and edge handling; **stride** downsamples; **pooling** (max/avg) downsamples without parameters, per channel.
 - Receptive field grows with depth — go **deeper** to see larger patterns.
-- CNN backprop: filter gradient $= X * \partial L/\partial O$; input gradient $=$ full conv of the **180°-rotated** filter with $\partial L/\partial O$.
+- CNN backprop: filter gradient $= X \ast \partial L/\partial O$; input gradient $=$ full conv of the **180°-rotated** filter with $\partial L/\partial O$.

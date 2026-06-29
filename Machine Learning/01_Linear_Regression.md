@@ -109,7 +109,7 @@ R^2 = 1 - \frac{\text{RSS}}{\text{TSS}} = \frac{\text{TSS} - \text{RSS}}{\text{T
 $$
 
 - In **simple** linear regression, $R^2 = (\text{correlation between } X \text{ and } Y)^2$.
-- In **multiple** regression, $R^2 = \operatorname{Cor}(y, \hat y)^2$.
+- In **multiple** regression, $R^2 = \mathrm{Cor}(y, \hat y)^2$.
 
 ---
 
@@ -280,10 +280,10 @@ This is much faster per step and scales to large datasets, at the cost of noisie
 ### Covariance Calculation
 
 $$
-\operatorname{Cov}(X, Y) = \frac{1}{n}\sum_{i=1}^n (x_i - \bar x)(y_i - \bar y)
+\mathrm{Cov}(X, Y) = \frac{1}{n}\sum_{i=1}^n (x_i - \bar x)(y_i - \bar y)
 $$
 
-This is the off-diagonal entry of the covariance matrix; the slope in simple regression is $\hat\beta_1 = \operatorname{Cov}(X,Y)/\operatorname{Var}(X)$.
+This is the off-diagonal entry of the covariance matrix; the slope in simple regression is $\hat\beta_1 = \mathrm{Cov}(X,Y)/\mathrm{Var}(X)$.
 
 ---
 

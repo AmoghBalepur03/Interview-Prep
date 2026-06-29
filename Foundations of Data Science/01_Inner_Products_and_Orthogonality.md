@@ -70,7 +70,7 @@ Therefore the list is linearly independent. $\blacksquare$
 **Gram–Schmidt theorem:** If $(v_1, \dots, v_m)$ is a linearly independent list of vectors in $V$, then there exists an **orthonormal** list $(e_1, \dots, e_m)$ such that
 
 $$
-\operatorname{span}(v_1, \dots, v_j) = \operatorname{span}(e_1, \dots, e_j) \quad \text{for each } j = 1, \dots, m.
+\mathrm{span}(v_1, \dots, v_j) = \mathrm{span}(e_1, \dots, e_j) \quad \text{for each } j = 1, \dots, m.
 $$
 
 ### The algorithm
@@ -126,8 +126,8 @@ For $v \in V$, $P_U v$ is the unique $u \in U$ given by the decomposition $v = u
 
 **Properties:**
 
-- $\operatorname{range}(P_U) = U$
-- $\operatorname{null}(P_U) = U^\perp$
+- $\mathrm{range}(P_U) = U$
+- $\mathrm{null}(P_U) = U^\perp$
 - $P_U^2 = P_U$ (idempotent)
 - $\|P_U v\| \le \|v\|$
 
@@ -165,7 +165,7 @@ $$
 \int_{-\pi}^{\pi} |\sin x - u(x)|^2 \, dx.
 $$
 
-**Setup:** Use $C[-\pi, \pi]$ as an inner product space with $\langle f, g \rangle = \int_{-\pi}^{\pi} f(x) g(x)\, dx$, and let $U = \operatorname{span}\{1, x, x^2, x^3, x^4, x^5\}$.
+**Setup:** Use $C[-\pi, \pi]$ as an inner product space with $\langle f, g \rangle = \int_{-\pi}^{\pi} f(x) g(x)\, dx$, and let $U = \mathrm{span}\{1, x, x^2, x^3, x^4, x^5\}$.
 
 **Solution:** Compute $P_U(\sin x)$ — the orthogonal projection of $\sin x$ onto $U$ — using an orthonormal basis of $U$ obtained via Gram–Schmidt (these are scaled Legendre polynomials on $[-\pi,\pi]$).
 

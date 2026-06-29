@@ -31,7 +31,7 @@ $$
 A = P D P^{-1}
 $$
 
-where $D = \operatorname{diag}(\lambda_1, \lambda_2, \dots, \lambda_n)$ and $P$ contains the **eigenvectors as columns**.
+where $D = \mathrm{diag}(\lambda_1, \lambda_2, \dots, \lambda_n)$ and $P$ contains the **eigenvectors as columns**.
 
 **Condition:** An $n \times n$ matrix $A$ is diagonalizable **if and only if** it has $n$ linearly independent eigenvectors.
 
@@ -51,7 +51,7 @@ where $D = \operatorname{diag}(\lambda_1, \lambda_2, \dots, \lambda_n)$ and $P$ 
 ### Why diagonalization helps with powers
 
 $$
-A^n = (P D P^{-1})^n = P D^n P^{-1}, \qquad D^n = \operatorname{diag}(\lambda_1^n, \dots, \lambda_n^n)
+A^n = (P D P^{-1})^n = P D^n P^{-1}, \qquad D^n = \mathrm{diag}(\lambda_1^n, \dots, \lambda_n^n)
 $$
 
 Raising a diagonal matrix to a power is just raising each diagonal entry to that power — extremely cheap.

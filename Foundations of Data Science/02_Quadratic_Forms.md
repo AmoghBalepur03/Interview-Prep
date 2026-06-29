@@ -114,7 +114,7 @@ Since $R^T R$ is **PD** (when $R$ has full column rank), the cost has a **unique
 **Useful facts:**
 
 $$
-\operatorname{Null}(R^T R) = \operatorname{Null}(R), \qquad \operatorname{Rank}(R^T R) = \operatorname{Rank}(R)
+\mathrm{Null}(R^T R) = \mathrm{Null}(R), \qquad \mathrm{Rank}(R^T R) = \mathrm{Rank}(R)
 $$
 
 ---

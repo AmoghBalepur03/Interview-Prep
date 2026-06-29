@@ -74,7 +74,7 @@ $$
 
 - First derivative: $f'(x) = a x - b$ — optimality at $a x = b$.
 - Second derivative: $f''(x) = a$.
-- If $a > 0$, $f(x)$ is minimized at $x^* = b/a$.
+- If $a > 0$, $f(x)$ is minimized at $x^{\ast} = b/a$.
 
 ### 4.2 Multivariate Analog
 
@@ -85,7 +85,7 @@ $$
 **Claim:** If $A$ is SPD, $f(x)$ is minimized where $A x = b$.
 
 $$
-x^* = \arg\min_x \left[ \tfrac12 x^T A x - b^T x + c \right]
+x^{\ast} = \arg\min_x \left[ \tfrac12 x^T A x - b^T x + c \right]
 $$
 
 - **First-order condition:** $A x = b$.
@@ -97,41 +97,41 @@ $$
 \nabla f(x) = A x - b, \qquad \nabla^2 f(x) = A
 $$
 
-So if $A$ is SPD, $f$ is convex. This links the optimization problem directly to matrix definiteness. Solving $A x = b$ is the same as finding the stationary point $x^*$ (intersection of planes in multivariable calculus).
+So if $A$ is SPD, $f$ is convex. This links the optimization problem directly to matrix definiteness. Solving $A x = b$ is the same as finding the stationary point $x^{\ast}$ (intersection of planes in multivariable calculus).
 
 > **NOTE — "$A$ is SPD" means:** $A = A^T$ (symmetric) **and** $x^T A x > 0$ for all $x \neq 0$ (positive definite).
 
-### 4.3 Proof that $x^*$ (where $Ax^* = b$) is the minimizer
+### 4.3 Proof that $x^{\ast}$ (where $Ax^{\ast} = b$) is the minimizer
 
-Let $x^*$ be the minimizer and perturb by $\epsilon$:
-
-$$
-f(x^* + \epsilon) = \tfrac12 (x^* + \epsilon)^T A (x^* + \epsilon) - b^T(x^* + \epsilon) + c
-$$
+Let $x^{\ast}$ be the minimizer and perturb by $\epsilon$:
 
 $$
-= \tfrac12 \big[ x^{*T} A x^* + x^{*T} A \epsilon + \epsilon^T A x^* + \epsilon^T A \epsilon \big] - b^T x^* - b^T \epsilon + c
+f(x^{\ast} + \epsilon) = \tfrac12 (x^{\ast} + \epsilon)^T A (x^{\ast} + \epsilon) - b^T(x^{\ast} + \epsilon) + c
 $$
 
-At the minimizer, $\nabla f(x^*) = A x^* - b = 0 \Rightarrow A x^* = b$. Plugging in, the cross terms cancel:
+$$
+= \tfrac12 \big[ x^{\ast T} A x^{\ast} + x^{\ast T} A \epsilon + \epsilon^T A x^{\ast} + \epsilon^T A \epsilon \big] - b^T x^{\ast} - b^T \epsilon + c
+$$
+
+At the minimizer, $\nabla f(x^{\ast}) = A x^{\ast} - b = 0 \Rightarrow A x^{\ast} = b$. Plugging in, the cross terms cancel:
 
 $$
-x^{*T} A \epsilon - b^T \epsilon = (b^T \epsilon) - b^T \epsilon = 0
+x^{\ast T} A \epsilon - b^T \epsilon = (b^T \epsilon) - b^T \epsilon = 0
 $$
 
 Therefore:
 
 $$
-f(x^* + \epsilon) = f(x^*) + \tfrac12 \epsilon^T A \epsilon \;>\; f(x^*)
+f(x^{\ast} + \epsilon) = f(x^{\ast}) + \tfrac12 \epsilon^T A \epsilon \;>\; f(x^{\ast})
 $$
 
-since $\epsilon^T A \epsilon > 0$ for $\epsilon \neq 0$ (because $A$ is SPD). Hence $x^*$ is the **unique global minimizer**. $\blacksquare$
+since $\epsilon^T A \epsilon > 0$ for $\epsilon \neq 0$ (because $A$ is SPD). Hence $x^{\ast}$ is the **unique global minimizer**. $\blacksquare$
 
 ---
 
 ## 5. Ellipsoids (Level Sets)
 
-If $A$ is diagonal, $D = \operatorname{diag}(\lambda_1, \lambda_2, \dots)$:
+If $A$ is diagonal, $D = \mathrm{diag}(\lambda_1, \lambda_2, \dots)$:
 
 $$
 x^T A x = \lambda_1 x_1^2 + \lambda_2 x_2^2 + \cdots = 1
@@ -156,10 +156,10 @@ $P$ is a matrix that projects any vector onto the **null space (kernel)** of ano
 
 **Projection properties:**
 
-- $\operatorname{Rank}(P) = \dim \operatorname{Null}(A)$
+- $\mathrm{Rank}(P) = \dim \mathrm{Null}(A)$
 - $P(I - P) = 0$
 - $P^2 = P$ (idempotent)
-- On $\operatorname{Null}(A)$, $P = I$.
+- On $\mathrm{Null}(A)$, $P = I$.
 
 **Construction.** Let $A$ be a linear transform. The orthogonal projection onto the null space of $A$ is:
 
@@ -272,21 +272,21 @@ which is exactly the definition of convexity. $\blacksquare$
 
 ## 8. Global Minimizer Condition
 
-If $f$ is convex and differentiable, then any point $x^*$ is a **global minimizer if and only if** $\nabla f(x^*) = 0$. (For any convex function, stationary points are global minima.)
+If $f$ is convex and differentiable, then any point $x^{\ast}$ is a **global minimizer if and only if** $\nabla f(x^{\ast}) = 0$. (For any convex function, stationary points are global minima.)
 
 **Proof:** For any $y$, by the first-order inequality:
 
 $$
-f(y) \ge f(x^*) + \nabla f(x^*)^T (y - x^*) = f(x^*) + 0 = f(x^*). \qquad \blacksquare
+f(y) \ge f(x^{\ast}) + \nabla f(x^{\ast})^T (y - x^{\ast}) = f(x^{\ast}) + 0 = f(x^{\ast}). \qquad \blacksquare
 $$
 
 ---
 
 ## 9. Example: log-cosh Loss is Convex
 
-The loss $\operatorname{logcosh}(y - w^T x)$ is **convex in $w$**.
+The loss $\mathrm{logcosh}(y - w^T x)$ is **convex in $w$**.
 
-Let $f(w) = \operatorname{logcosh}(y - w^T x)$ and set $z = y - w^T x$. Since $\operatorname{logcosh}(z) = \log\cosh(z)$ has second derivative $\operatorname{sech}^2(z) = 1 - \tanh^2(z) \in (0, 1] \ge 0$, it is convex in $z$. Because $z$ is an affine (linear) function of $w$, and convexity is preserved under affine composition, $f(w)$ is convex in $w$.
+Let $f(w) = \mathrm{logcosh}(y - w^T x)$ and set $z = y - w^T x$. Since $\mathrm{logcosh}(z) = \log\cosh(z)$ has second derivative $\mathrm{sech}^2(z) = 1 - \tanh^2(z) \in (0, 1] \ge 0$, it is convex in $z$. Because $z$ is an affine (linear) function of $w$, and convexity is preserved under affine composition, $f(w)$ is convex in $w$.
 
 ---
 
@@ -294,5 +294,5 @@ Let $f(w) = \operatorname{logcosh}(y - w^T x)$ and set $z = y - w^T x$. Since $\
 
 - Convexity = chord above graph = function above every tangent plane = local min is global min.
 - A quadratic form $x^T A x$ is convex iff $A$ is symmetric PSD; strictly convex iff PD.
-- For a convex differentiable $f$, $\nabla f(x^*) = 0$ is **necessary and sufficient** for a global minimum.
+- For a convex differentiable $f$, $\nabla f(x^{\ast}) = 0$ is **necessary and sufficient** for a global minimum.
 - Definiteness of the Hessian is the bridge between linear algebra (eigenvalues) and optimization (convexity, unique minima, ellipsoidal level sets).
