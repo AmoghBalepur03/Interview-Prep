@@ -1,0 +1,382 @@
+Frequency,Problem,Difficulty,Topics
+100.0%,Bus Routes,Hard,Array;Hash Table;Breadth-First Search
+87.5%,Number of Islands,Medium,Array;DFS;BFS;Union-Find;Matrix
+87.5%,Kth Smallest Element in a BST,Medium,Tree;DFS;Binary Search Tree
+87.5%,Alien Dictionary,Hard,Graph;Topological Sort
+87.5%,Number of Islands II,Hard,Union-Find
+87.5%,Find the Closest Palindrome,Hard,Math;String
+87.5%,Construct Quad Tree,Medium,Array;Divide and Conquer;Tree;Matrix
+87.5%,Squares of a Sorted Array,Easy,Array;Two Pointers;Sorting
+87.5%,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,Array;Queue;Sliding Window
+75.0%,Text Justification,Hard,Array;String;Simulation
+75.0%,Word Search,Medium,Array;String;Backtracking;Matrix
+75.0%,Best Time to Buy and Sell Stock,Easy,Array;Dynamic Programming
+75.0%,LRU Cache,Medium,Hash Table;Linked List;Design
+75.0%,Word Search II,Hard,Array;String;Backtracking;Trie;Matrix
+75.0%,Product of Array Except Self,Medium,Array;Prefix Sum
+75.0%,Design Hit Counter,Medium,Design;Queue
+75.0%,Insert Delete GetRandom O(1),Medium,Array;Hash Table;Math;Design
+75.0%,Evaluate Division,Medium,Array;String;DFS;BFS;Union-Find;Graph
+75.0%,My Calendar I,Medium,Array;Binary Search;Design;Ordered Set
+75.0%,Random Pick with Weight,Medium,Array;Math;Binary Search;Prefix Sum
+75.0%,First Unique Number,Medium,Hash Table;Design;Queue
+62.5%,Two Sum,Easy,Array;Hash Table
+62.5%,Letter Combinations of a Phone Number,Medium,Hash Table;String;Backtracking
+62.5%,Merge k Sorted Lists,Hard,Linked List;Divide and Conquer;Heap
+62.5%,Search in Rotated Sorted Array,Medium,Array;Binary Search
+62.5%,Valid Sudoku,Medium,Array;Hash Table;Matrix
+62.5%,Sudoku Solver,Hard,Array;Hash Table;Backtracking;Matrix
+62.5%,Group Anagrams,Medium,Array;Hash Table;String;Sorting
+62.5%,Spiral Matrix,Medium,Array;Matrix;Simulation
+62.5%,Minimum Window Substring,Hard,Hash Table;String;Sliding Window
+62.5%,Decode Ways,Medium,String;Dynamic Programming
+62.5%,Maximum Depth of Binary Tree,Easy,Tree;DFS;BFS
+62.5%,Word Break,Medium,Array;Hash Table;String;Dynamic Programming
+62.5%,Course Schedule,Medium,DFS;BFS;Graph;Topological Sort
+62.5%,Course Schedule II,Medium,DFS;BFS;Graph;Topological Sort
+62.5%,Basic Calculator,Hard,Math;String;Stack;Recursion
+62.5%,Valid Anagram,Easy,Hash Table;String;Sorting
+62.5%,Meeting Rooms II,Medium,Intervals;Heap;Sorting
+62.5%,Serialize and Deserialize Binary Tree,Hard,String;Tree;DFS;BFS;Design
+62.5%,House Robber III,Medium,Dynamic Programming;Tree;DFS
+62.5%,Top K Frequent Elements,Medium,Array;Hash Table;Heap;Sorting
+62.5%,Shuffle an Array,Medium,Array;Math;Design;Randomized
+62.5%,All O`one Data Structure,Hard,Hash Table;Linked List;Design
+62.5%,The Maze,Medium,BFS;DFS;Matrix
+62.5%,Design In-Memory File System,Hard,Trie;Design;Hash Table
+62.5%,Exclusive Time of Functions,Medium,Array;Stack
+62.5%,Top K Frequent Words,Medium,Array;Hash Table;String;Heap
+62.5%,Cherry Pickup,Hard,Array;Dynamic Programming;Matrix
+62.5%,Making A Large Island,Hard,Array;DFS;BFS;Union-Find;Matrix
+62.5%,Shortest Bridge,Medium,Array;DFS;BFS;Matrix
+62.5%,Time Based Key-Value Store,Medium,Hash Table;String;Binary Search;Design
+62.5%,Leftmost Column with at Least a One,Medium,Binary Search;Matrix;Interactive
+62.5%,Merge Strings Alternately,Easy,Two Pointers;String
+62.5%,Minimum Number of Operations to Make Array Continuous,Hard,Array;Hash Table;Binary Search;Sliding Window
+62.5%,Escape the Spreading Fire,Hard,Array;Binary Search;BFS;Matrix
+62.5%,Count Subarrays With Fixed Bounds,Hard,Array;Queue;Sliding Window
+62.5%,Split Message Based on Limit,Hard,String;Enumeration
+62.5%,Divide Nodes Into the Maximum Number of Groups,Hard,DFS;BFS;Union-Find;Graph
+62.5%,Minimum Edge Reversals So Every Node Is Reachable,Hard,Dynamic Programming;DFS;BFS;Graph
+62.5%,Minimum Operations to Write the Letter Y on a Grid,Medium,Array;Hash Table;Matrix
+62.5%,Block Placement Queries,Hard,Array;Binary Search;Binary Indexed Tree;Segment Tree
+62.5%,Find Minimum Time to Reach Last Room I,Medium,Array;Graph;Heap;Shortest Path
+62.5%,Rotating the Box,Medium,Array;Two Pointers;Matrix
+50.0%,String to Integer (atoi),Medium,String
+50.0%,Regular Expression Matching,Hard,String;Dynamic Programming;Recursion
+50.0%,Roman to Integer,Easy,Hash Table;Math;String
+50.0%,Generate Parentheses,Medium,String;Dynamic Programming;Backtracking
+50.0%,Swap Nodes in Pairs,Medium,Linked List;Recursion
+50.0%,Next Permutation,Medium,Array;Two Pointers
+50.0%,Combination Sum,Medium,Array;Backtracking
+50.0%,Rotate Image,Medium,Array;Math;Matrix
+50.0%,Subsets,Medium,Array;Backtracking;Bit Manipulation
+50.0%,Largest Rectangle in Histogram,Hard,Array;Stack;Monotonic Stack
+50.0%,Valid Palindrome,Easy,Two Pointers;String
+50.0%,Clone Graph,Medium,Hash Table;DFS;BFS;Graph
+50.0%,Copy List with Random Pointer,Medium,Hash Table;Linked List
+50.0%,Word Break II,Hard,Array;Hash Table;String;Backtracking
+50.0%,Min Stack,Medium,Stack;Design
+50.0%,One Edit Distance,Medium,Two Pointers;String
+50.0%,Excel Sheet Column Number,Easy,Math;String
+50.0%,Dungeon Game,Hard,Array;Dynamic Programming;Matrix
+50.0%,Reverse Words in a String II,Medium,Two Pointers;String
+50.0%,House Robber,Medium,Array;Dynamic Programming
+50.0%,Binary Tree Right Side View,Medium,Tree;DFS;BFS
+50.0%,Happy Number,Easy,Hash Table;Math;Two Pointers
+50.0%,Reverse Linked List,Easy,Linked List;Recursion
+50.0%,Implement Trie (Prefix Tree),Medium,Hash Table;String;Trie;Design
+50.0%,Group Shifted Strings,Medium,Hash Table;String
+50.0%,Factor Combinations,Medium,Backtracking
+50.0%,Trips and Users,Hard,Database
+50.0%,Palindrome Permutation,Easy,Hash Table;String
+50.0%,Walls and Gates,Medium,BFS;Matrix
+50.0%,Word Pattern,Easy,Hash Table;String
+50.0%,Word Pattern II,Medium,Hash Table;String;Backtracking
+50.0%,Find Median from Data Stream,Hard,Two Pointers;Design;Heap;Sorting
+50.0%,Coin Change,Medium,Array;Dynamic Programming;BFS
+50.0%,Find K Pairs with Smallest Sums,Medium,Array;Heap
+50.0%,Delete Node in a BST,Medium,Tree;Binary Search Tree;Binary Tree
+50.0%,Optimal Account Balancing,Hard,Backtracking;Bit Manipulation
+50.0%,Longest Palindromic Subsequence,Medium,String;Dynamic Programming
+50.0%,Encode and Decode TinyURL,Medium,Hash Table;String;Design
+50.0%,Replace Words,Medium,Array;Hash Table;String;Trie
+50.0%,Employee Importance,Medium,Array;Hash Table;Tree;DFS;BFS
+50.0%,Falling Squares,Hard,Array;Segment Tree;Ordered Set
+50.0%,Flood Fill,Easy,Array;DFS;BFS;Matrix
+50.0%,Asteroid Collision,Medium,Array;Stack;Simulation
+50.0%,Open the Lock,Medium,Array;Hash Table;String;BFS
+50.0%,Random Pick with Blacklist,Hard,Array;Hash Table;Math;Binary Search
+50.0%,Koko Eating Bananas,Medium,Array;Binary Search
+50.0%,Regions Cut By Slashes,Medium,Array;Hash Table;DFS;Union-Find;Matrix
+50.0%,Rotting Oranges,Medium,Array;BFS;Matrix
+50.0%,Fixed Point,Easy,Array;Binary Search
+50.0%,Parallel Courses,Medium,Graph;Topological Sort
+50.0%,Minimum Score Triangulation of Polygon,Medium,Array;Dynamic Programming
+50.0%,Remove Zero Sum Consecutive Nodes from Linked List,Medium,Hash Table;Linked List
+50.0%,Find the City With the Smallest Number of Neighbors at a Threshold Distance,Medium,Dynamic Programming;Graph;Shortest Path
+50.0%,Find the Distance Value Between Two Arrays,Easy,Array;Two Pointers;Binary Search;Sorting
+50.0%,Construct K Palindrome Strings,Medium,Hash Table;String;Greedy;Counting
+50.0%,Course Schedule IV,Medium,DFS;BFS;Graph;Topological Sort
+50.0%,Number of Nodes in the Sub-Tree With the Same Label,Medium,Hash Table;Tree;DFS;BFS
+50.0%,Remove Max Number of Edges to Keep Graph Fully Traversable,Hard,Union-Find;Graph
+50.0%,Hopper Company Queries I,Hard,Database
+50.0%,Hopper Company Queries II,Hard,Database
+50.0%,Hopper Company Queries III,Hard,Database
+50.0%,Number Of Ways To Reconstruct A Tree,Hard,Array;Hash Table;Tree;Graph
+50.0%,Maximum Number of Eaten Apples,Medium,Array;Greedy;Heap
+50.0%,Maximum XOR for Each Query,Medium,Array;Bit Manipulation;Prefix Sum
+50.0%,Minimum Absolute Sum Difference,Medium,Array;Binary Search;Sorting
+50.0%,Maximum Subarray Min-Product,Medium,Array;Stack;Monotonic Stack;Prefix Sum
+50.0%,Nearest Exit from Entrance in Maze,Medium,Array;BFS;Matrix
+50.0%,Check for Contradictions in Equations,Hard,Graph;Union-Find;DFS
+50.0%,Array With Elements Not Equal to Average of Neighbors,Medium,Array;Greedy;Sorting
+50.0%,Check If String Is a Prefix of Array,Easy,Array;Two Pointers;String
+50.0%,Number of Strings That Appear as Substrings in Word,Easy,Array;String
+50.0%,Minimum Time to Complete Trips,Medium,Array;Binary Search
+50.0%,Create Binary Tree From Descriptions,Medium,Array;Hash Table;Tree
+50.0%,Intersection of Multiple Arrays,Easy,Array;Hash Table;Sorting
+50.0%,K Divisible Elements Subarrays,Medium,Array;Hash Table;Trie
+50.0%,Calculate Digit Sum of a String,Easy,String;Simulation
+50.0%,Minimum Sum of Squared Difference,Medium,Array;Binary Search;Greedy;Heap
+50.0%,Number of People That Can Be Seen in a Grid,Medium,Array;Stack;Matrix;Monotonic Stack
+50.0%,Meeting Rooms III,Hard,Array;Hash Table;Sorting;Heap
+50.0%,Add Edges to Make Degrees of All Nodes Even,Hard,Hash Table;Graph
+50.0%,Maximize Win From Two Segments,Medium,Array;Binary Search;Sliding Window
+50.0%,Check if a String Is an Acronym of Words,Easy,Array;String
+50.0%,Points That Intersect With Cars,Easy,Array;Hash Table;Prefix Sum
+50.0%,Number of Ways to Reach Destination in the Grid,Hard,Dynamic Programming;Matrix
+50.0%,Find Pattern in Infinite Stream I,Medium,Sliding Window;String Matching
+50.0%,Find Pattern in Infinite Stream II,Hard,Sliding Window;String Matching
+50.0%,Maximum Increasing Triplet Value,Medium,Array;Ordered Set
+50.0%,Match Alphanumerical Pattern in Matrix I,Medium,Array;Hash Table;Matrix
+50.0%,Minimum Operations to Make Binary Array Elements Equal to One I,Medium,Array;Bit Manipulation;Queue;Sliding Window
+50.0%,Minimum Operations to Make Binary Array Elements Equal to One II,Medium,Array;Dynamic Programming;Greedy
+50.0%,Find the Number of Ways to Place People II,Hard,Array;Math;Geometry;Sorting
+50.0%,Find Minimum Time to Reach Last Room II,Medium,Array;Graph;Heap;Shortest Path
+50.0%,Boundary of Binary Tree,Medium,Tree;DFS
+50.0%,Maximize Amount After Two Days of Conversions,Medium,Array;String;DFS;BFS;Graph
+50.0%,Number of Black Blocks,Medium,Array;Hash Table;Enumeration
+50.0%,Maximum Coin Collection,Medium,Array;Dynamic Programming
+50.0%,The Maze II,Medium,Graph;BFS;Heap;Shortest Path
+50.0%,Best Time to Buy and Sell Stock using Strategy,Medium,Array;Sliding Window;Prefix Sum
+50.0%,Final Prices With a Special Discount in a Shop,Easy,Array;Stack;Monotonic Stack
+50.0%,Count Paths That Can Form a Palindrome in a Tree,Hard,Dynamic Programming;Bit Manipulation;Tree;DFS
+37.5%,Add Two Numbers,Medium,Linked List;Math;Recursion
+37.5%,Longest Substring Without Repeating Characters,Medium,Hash Table;String;Sliding Window
+37.5%,Reverse Integer,Medium,Math
+37.5%,Container With Most Water,Medium,Array;Two Pointers;Greedy
+37.5%,Longest Common Prefix,Easy,Array;String;Trie
+37.5%,Valid Parentheses,Easy,String;Stack
+37.5%,Find First and Last Position of Element in Sorted Array,Medium,Array;Binary Search
+37.5%,Trapping Rain Water,Hard,Array;Two Pointers;Dynamic Programming;Stack
+37.5%,Permutations,Medium,Array;Backtracking
+37.5%,Maximum Subarray,Medium,Array;Divide and Conquer;Dynamic Programming
+37.5%,Merge Intervals,Medium,Array;Sorting
+37.5%,Insert Interval,Medium,Array
+37.5%,Minimum Path Sum,Medium,Array;Dynamic Programming;Matrix
+37.5%,Sqrt(x),Easy,Math;Binary Search
+37.5%,Binary Tree Maximum Path Sum,Hard,Dynamic Programming;Tree;DFS
+37.5%,Word Ladder,Hard,Hash Table;String;BFS
+37.5%,Longest Consecutive Sequence,Medium,Array;Hash Table;Union-Find
+37.5%,Candy,Hard,Array;Greedy
+37.5%,Find Minimum in Rotated Sorted Array,Medium,Array;Binary Search
+37.5%,Find Peak Element,Medium,Array;Binary Search
+37.5%,Shortest Palindrome,Hard,String;Rolling Hash;String Matching
+37.5%,Kth Largest Element in an Array,Medium,Array;Divide and Conquer;Sorting;Heap
+37.5%,The Skyline Problem,Hard,Array;Divide and Conquer;Binary Indexed Tree;Segment Tree
+37.5%,Sliding Window Maximum,Hard,Array;Queue;Sliding Window;Monotonic Queue
+37.5%,Move Zeroes,Easy,Array;Two Pointers
+37.5%,Longest Increasing Path in a Matrix,Hard,Array;Dynamic Programming;DFS;Memoization
+37.5%,Patching Array,Hard,Array;Greedy
+37.5%,Reconstruct Itinerary,Hard,Array;String;DFS;Graph;Eulerian Path
+37.5%,Split Array Largest Sum,Hard,Array;Binary Search;Dynamic Programming
+37.5%,Pacific Atlantic Water Flow,Medium,Array;DFS;BFS;Matrix
+37.5%,Longest Repeating Character Replacement,Medium,Hash Table;String;Sliding Window
+37.5%,LFU Cache,Hard,Hash Table;Linked List;Design
+37.5%,Next Greater Element I,Easy,Array;Hash Table;Stack;Monotonic Stack
+37.5%,Task Scheduler,Medium,Array;Hash Table;Greedy;Heap;Counting
+37.5%,Candy Crush,Medium,Array;Two Pointers;Matrix;Simulation
+37.5%,Sliding Puzzle,Hard,Array;Dynamic Programming;Backtracking;BFS
+37.5%,Is Graph Bipartite?,Medium,DFS;BFS;Union-Find;Graph
+37.5%,Cheapest Flights Within K Stops,Medium,Dynamic Programming;DFS;BFS;Graph;Shortest Path
+37.5%,Number of Matching Subsequences,Medium,Array;Hash Table;String;Sorting
+37.5%,Exam Room,Medium,Design;Heap;Ordered Set
+37.5%,Verifying an Alien Dictionary,Easy,Array;Hash Table;String
+37.5%,Minimum Cost For Tickets,Medium,Array;Dynamic Programming
+37.5%,Interval List Intersections,Medium,Array;Two Pointers;Sweep Line
+37.5%,Subarrays with K Different Integers,Hard,Array;Hash Table;Sliding Window;Counting
+37.5%,Min Cost to Connect All Points,Medium,Array;Union-Find;Graph;MST
+37.5%,Design Parking System,Easy,Design;Simulation;Counting
+37.5%,Count Nice Pairs in an Array,Medium,Array;Hash Table;Math
+37.5%,Maximum Earnings From Taxi,Medium,Array;Hash Table;Binary Search;Dynamic Programming
+37.5%,Time Needed to Buy Tickets,Easy,Array;Queue;Simulation
+37.5%,Find All Possible Recipes from Given Supplies,Medium,Array;Hash Table;String;Graph;Topological Sort
+37.5%,Number of Flowers in Full Bloom,Hard,Array;Hash Table;Binary Search;Prefix Sum
+37.5%,Count the Number of Good Subarrays,Medium,Array;Hash Table;Sliding Window
+37.5%,Collect Coins in a Tree,Hard,Array;Tree;Graph;Topological Sort
+37.5%,Length of Longest Subarray With at Most K Frequency,Medium,Array;Hash Table;Sliding Window
+37.5%,Find the Length of the Longest Common Prefix,Medium,Array;Hash Table;String;Trie
+37.5%,Minimum Absolute Difference Between Elements With Constraint,Medium,Array;Binary Search;Ordered Set
+37.5%,Smallest String With Swaps,Medium,Array;Hash Table;String;Union-Find
+37.5%,Design Browser History,Medium,Array;Linked List;Stack;Design
+37.5%,Word Ladder II,Hard,Hash Table;String;Backtracking;BFS
+37.5%,Subarray Sums Divisible by K,Medium,Array;Hash Table;Prefix Sum
+37.5%,Add Digits,Easy,Math;Simulation;Number Theory
+37.5%,Design File System,Medium,Hash Table;String;Trie;Design
+37.5%,Design Memory Allocator,Medium,Array;Hash Table;Design;Simulation
+37.5%,Longest Path With Different Adjacent Characters,Hard,Array;String;Tree;DFS;Graph
+37.5%,Water and Jug Problem,Medium,Math;DFS;BFS
+37.5%,Most Profitable Path in a Tree,Medium,Array;Tree;DFS;Graph
+37.5%,Brightest Position on Street,Medium,Array;Sweep Line;Prefix Sum
+37.5%,Rotated Digits,Medium,Math;Dynamic Programming
+37.5%,Number of Adjacent Elements With the Same Color,Medium,Array
+37.5%,Number of Provinces,Medium,DFS;BFS;Union-Find;Graph
+37.5%,Basic Calculator II,Medium,Math;String;Stack
+37.5%,Detonate the Maximum Bombs,Medium,Array;Math;DFS;BFS;Graph;Geometry
+37.5%,Maximum Points You Can Obtain from Cards,Medium,Array;Sliding Window;Prefix Sum
+37.5%,Burst Balloons,Hard,Array;Dynamic Programming
+37.5%,Minimum Cost to Make at Least One Valid Path in a Grid,Hard,Array;BFS;Graph;0-1 BFS
+37.5%,Replace Non-Coprime Numbers in Array,Hard,Array;Math;Stack;Number Theory
+37.5%,Minimum Operations to Reduce an Integer to 0,Medium,Dynamic Programming;Greedy;Bit Manipulation
+37.5%,The Earliest Moment When Everyone Become Friends,Medium,Array;Union-Find;Sorting
+25.0%,Median of Two Sorted Arrays,Hard,Array;Binary Search;Divide and Conquer
+25.0%,Longest Palindromic Substring,Medium,Two Pointers;String;Dynamic Programming
+25.0%,Palindrome Number,Easy,Math
+25.0%,3Sum,Medium,Array;Two Pointers;Sorting
+25.0%,Remove Duplicates from Sorted Array,Easy,Array;Two Pointers
+25.0%,Remove Element,Easy,Array;Two Pointers
+25.0%,Longest Valid Parentheses,Hard,String;Dynamic Programming;Stack
+25.0%,Climbing Stairs,Easy,Math;Dynamic Programming;Memoization
+25.0%,Set Matrix Zeroes,Medium,Array;Hash Table;Matrix
+25.0%,Remove Duplicates from Sorted Array II,Medium,Array;Two Pointers
+25.0%,Search in Rotated Sorted Array II,Medium,Array;Binary Search
+25.0%,Validate Binary Search Tree,Medium,Tree;DFS;Binary Search Tree
+25.0%,Linked List Cycle,Easy,Hash Table;Linked List;Two Pointers
+25.0%,Majority Element,Easy,Array;Hash Table;Divide and Conquer;Counting
+25.0%,Isomorphic Strings,Easy,Hash Table;String
+25.0%,Contains Duplicate,Easy,Array;Hash Table;Sorting
+25.0%,Search a 2D Matrix II,Medium,Array;Binary Search;Divide and Conquer;Matrix
+25.0%,Strobogrammatic Number,Easy,Hash Table;Two Pointers;String
+25.0%,H-Index,Medium,Array;Sorting;Counting Sort
+25.0%,Longest Increasing Subsequence,Medium,Array;Binary Search;Dynamic Programming
+25.0%,Russian Doll Envelopes,Hard,Array;Binary Search;Dynamic Programming;Sorting
+25.0%,Design Twitter,Medium,Hash Table;Linked List;Design;Heap
+25.0%,Largest Divisible Subset,Medium,Array;Math;Dynamic Programming;Sorting
+25.0%,Ransom Note,Easy,Hash Table;String;Counting
+25.0%,String Compression,Medium,Two Pointers;String
+25.0%,Can I Win,Medium,Math;Dynamic Programming;Bit Manipulation;Game Theory;Memoization
+25.0%,Matchsticks to Square,Medium,Array;Dynamic Programming;Backtracking;Bit Manipulation
+25.0%,Predict the Winner,Medium,Array;Math;Dynamic Programming;Game Theory
+25.0%,Next Greater Element II,Medium,Array;Stack;Monotonic Stack
+25.0%,Freedom Trail,Hard,String;Dynamic Programming;DFS;Breadth-First Search
+25.0%,Contiguous Array,Medium,Array;Hash Table;Prefix Sum
+25.0%,01 Matrix,Medium,Array;Dynamic Programming;BFS;Matrix
+25.0%,Subarray Sum Equals K,Medium,Array;Hash Table;Prefix Sum
+25.0%,Find K Closest Elements,Medium,Array;Two Pointers;Binary Search;Heap;Sorting
+25.0%,Maximum Width of Binary Tree,Medium,Tree;DFS;BFS
+25.0%,Valid Parenthesis String,Medium,String;Dynamic Programming;Stack;Greedy
+25.0%,Max Area of Island,Medium,Array;DFS;BFS;Union-Find;Matrix
+25.0%,Swim in Rising Water,Hard,Array;Binary Search;DFS;BFS;Union-Find;Heap
+25.0%,Custom Sort String,Medium,Hash Table;String;Sorting
+25.0%,Find Eventual Safe States,Medium,DFS;BFS;Graph;Topological Sort
+25.0%,Possible Bipartition,Medium,DFS;BFS;Union-Find;Graph
+25.0%,Complete Binary Tree Inserter,Medium,Tree;BFS;Design
+25.0%,Capacity To Ship Packages Within D Days,Medium,Array;Binary Search
+25.0%,Analyze User Website Visit Pattern,Medium,Array;Hash Table;Sorting
+25.0%,Stone Game II,Medium,Array;Math;Dynamic Programming;Game Theory;Prefix Sum
+25.0%,Minimum Number of Taps to Open to Water a Garden,Hard,Array;Dynamic Programming;Greedy
+25.0%,Create Target Array in the Given Order,Easy,Array;Simulation
+25.0%,Replace Employee ID With The Unique Identifier,Easy,Database
+25.0%,Kth Missing Positive Number,Easy,Array;Binary Search
+25.0%,Furthest Building You Can Reach,Medium,Array;Greedy;Heap
+25.0%,Recyclable and Low Fat Products,Easy,Database
+25.0%,Frequency of the Most Frequent Element,Medium,Array;Binary Search;Greedy;Sliding Window
+25.0%,Maximum Number of Accepted Invitations,Medium,Array;Graph;Matrix
+25.0%,Simple Bank System,Medium,Array;Hash Table;Design;Simulation
+25.0%,Amount of New Area Painted Each Day,Hard,Array;Hash Table;Ordered Set
+25.0%,Amount of Time for Binary Tree to Be Infected,Medium,Hash Table;Tree;DFS;BFS
+25.0%,Task Scheduler II,Medium,Array;Hash Table;Simulation
+25.0%,Put Marbles in Bags,Hard,Array;Greedy;Sorting;Heap
+25.0%,Continuous Subarrays,Medium,Array;Queue;Sliding Window;Ordered Set
+25.0%,House Robber II,Medium,Array;Dynamic Programming
+25.0%,Paint House,Medium,Array;Dynamic Programming
+25.0%,Construct Binary Tree from Preorder and Inorder Traversal,Medium,Array;Hash Table;Divide and Conquer;Tree
+25.0%,Strange Printer,Hard,String;Dynamic Programming
+25.0%,Find the Most Competitive Subsequence,Medium,Array;Stack;Greedy;Monotonic Stack
+25.0%,Sum of Left Leaves,Easy,Tree;DFS;BFS
+25.0%,Get Biggest Three Rhombus Sums in a Grid,Medium,Array;Math;Sorting;Prefix Sum
+25.0%,Meeting Rooms,Easy,Array;Sorting
+25.0%,Design Search Autocomplete System,Hard,Hash Table;String;Trie;Design
+25.0%,Minimum Number of Changes to Make Binary String Beautiful,Medium,String
+25.0%,Meeting Scheduler,Medium,Array;Two Pointers;Sorting
+25.0%,Kth Smallest Number in Multiplication Table,Hard,Math;Binary Search
+25.0%,Maximum Width Ramp,Medium,Array;Two Pointers;Stack;Monotonic Stack
+25.0%,Sum of Distances in Tree,Hard,Dynamic Programming;Tree;DFS
+25.0%,Maximum Frequency Stack,Hard,Hash Table;Stack;Design
+25.0%,Check if the Rectangle Corner Is Reachable,Hard,Array;Math;DFS;BFS;Union-Find
+25.0%,Find the Celebrity,Medium,Two Pointers;Graph;Interactive
+25.0%,Count Different Palindromic Subsequences,Hard,String;Dynamic Programming
+25.0%,Spiral Matrix III,Medium,Array;Matrix;Simulation
+25.0%,Design a Text Editor,Hard,Linked List;String;Stack;Design
+25.0%,Remove Comments,Medium,Array;String
+25.0%,Minimize Malware Spread,Hard,Array;Hash Table;DFS;BFS;Union-Find
+25.0%,Minimize Malware Spread II,Hard,Array;Hash Table;DFS;BFS;Union-Find
+25.0%,Surrounded Regions,Medium,Array;DFS;BFS;Union-Find;Matrix
+25.0%,Count Palindromic Subsequences,Hard,String;Dynamic Programming
+25.0%,Count Prefix and Suffix Pairs II,Hard,Array;String;Trie;Rolling Hash
+25.0%,Number of Distinct Substrings in a String,Medium,String;Trie;Rolling Hash;Suffix Array
+25.0%,Binary Search Tree Iterator,Medium,Stack;Tree;Design;BST
+25.0%,Number of Subarrays That Match a Pattern I,Medium,Array;Rolling Hash;String Matching
+25.0%,Cache With Time Limit,Medium,Design;JavaScript
+25.0%,24 Game,Hard,Array;Math;Backtracking
+25.0%,Add Strings,Easy,Math;String;Simulation
+25.0%,Promise Pool,Medium,JavaScript;Concurrency
+25.0%,Maximum Manhattan Distance After K Changes,Medium,Hash Table;Math;String;Counting
+25.0%,Shortest Path in a Grid with Obstacles Elimination,Hard,Array;BFS;Matrix
+25.0%,Valid Palindrome II,Easy,Two Pointers;String;Greedy
+25.0%,Maximize Sum Of Array After K Negations,Easy,Array;Greedy;Sorting
+25.0%,Largest 1-Bordered Square,Medium,Array;Dynamic Programming;Matrix
+25.0%,Number of Subarrays with Bounded Maximum,Medium,Array;Two Pointers
+25.0%,Graph Connectivity With Threshold,Hard,Array;Math;Union-Find;Number Theory
+25.0%,Design Snake Game,Medium,Array;Hash Table;Design;Queue;Simulation
+25.0%,Minimum Cost to Merge Stones,Hard,Array;Dynamic Programming;Prefix Sum
+25.0%,Simplify Path,Medium,String;Stack
+25.0%,Shortest Path in Binary Matrix,Medium,Array;BFS;Matrix
+25.0%,Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree,Hard,Union-Find;Graph;Sorting;MST
+25.0%,Strobogrammatic Number II,Medium,Recursion;Math
+25.0%,Cherry Pickup II,Hard,Array;Dynamic Programming;Matrix
+25.0%,Robot Room Cleaner,Hard,Backtracking;Interactive
+25.0%,Random Point in Non-overlapping Rectangles,Medium,Array;Math;Binary Search;Randomized
+25.0%,Reverse Nodes in k-Group,Hard,Linked List;Recursion
+25.0%,Find the Maximum Length of Valid Subsequence II,Medium,Array;Dynamic Programming
+25.0%,Integer Replacement,Medium,Dynamic Programming;Greedy;Bit Manipulation;Memoization
+25.0%,2 Keys Keyboard,Medium,Math;Dynamic Programming
+25.0%,Binary Tree Longest Consecutive Sequence II,Medium,Tree;DFS;Binary Tree
+25.0%,Maximum Average Subarray I,Easy,Array;Sliding Window
+25.0%,Ones and Zeroes,Medium,Array;String;Dynamic Programming
+25.0%,Maximum Profit in Job Scheduling,Hard,Array;Binary Search;Dynamic Programming;Sorting
+25.0%,Count Integers in Intervals,Hard,Design;Segment Tree;Ordered Set
+25.0%,Human Traffic of Stadium,Hard,Database
+25.0%,Repeated String Match,Medium,String;String Matching
+25.0%,Maximum Number of Events That Can Be Attended,Medium,Array;Greedy;Sorting;Heap
+25.0%,My Calendar II,Medium,Array;Binary Search;Design;Prefix Sum
+25.0%,Insert Delete GetRandom O(1) - Duplicates allowed,Hard,Array;Hash Table;Math;Design
+25.0%,Find the Safest Path in a Grid,Medium,Array;Binary Search;BFS;Union-Find
+25.0%,Closest Binary Search Tree Value,Easy,Tree;DFS;BST
+25.0%,Accounts Merge,Medium,Array;Hash Table;String;DFS;Union-Find
+25.0%,Minimum Difference in Sums After Removal of Elements,Hard,Array;Dynamic Programming;Heap
+25.0%,Count Primes,Medium,Array;Math;Enumeration;Number Theory
+25.0%,Linked List Components,Medium,Array;Hash Table;Linked List
+25.0%,Count Binary Substrings,Easy,Two Pointers;String
+25.0%,Bomb Enemy,Medium,Array;Dynamic Programming;Matrix
+25.0%,Find All People With Secret,Hard,DFS;BFS;Union-Find;Graph;Sorting
+25.0%,Car Pooling,Medium,Array;Sorting;Heap;Prefix Sum;Simulation
+25.0%,Magnetic Force Between Two Balls,Medium,Array;Binary Search;Sorting
+25.0%,Rearranging Fruits,Hard,Array;Hash Table;Greedy;Sorting
+25.0%,IPO,Hard,Array;Greedy;Sorting;Heap
+25.0%,Maximum Number of Points From Grid Queries,Hard,Array;Two Pointers;BFS;Union-Find;Heap
+25.0%,Design A Leaderboard,Medium,Hash Table;Design;Sorting
+25.0%,Minimum Jumps to Reach End via Prime Teleportation,Medium,Array;Hash Table;Math;BFS
+25.0%,Process Restricted Friend Requests,Hard,Union-Find;Graph
+25.0%,Shortest Path to Get All Keys,Hard,Array;Bit Manipulation;BFS;Matrix
