@@ -1,0 +1,665 @@
+Rank,Problem,LeetCode #,Difficulty,Acceptance %,Frequency %,Tier,Primary Topic,Companies
+1,Two Sum,1,Easy,57.1,100.0,S,Array/Hash Table,Amazon;Google;Meta;Uber
+2,Best Time to Buy and Sell Stock,121,Easy,56.4,88.5,S,Array/DP,Amazon;Google;Meta;Uber
+3,LRU Cache,146,Medium,46.8,81.9,S,Design/Hash Table/Linked List,Amazon;Google;Meta;Uber
+4,Number of Islands,200,Medium,63.8,81.5,S,Graph/DFS/BFS/Matrix,Amazon;Google;Meta;Uber
+5,Top K Frequent Elements,347,Medium,65.9,77.5,S,Hash Table/Heap/Bucket Sort,Amazon;Google;Meta;Uber
+6,Merge Intervals,56,Medium,51.2,76.5,S,Array/Sorting,Amazon;Google;Meta;Uber
+7,Merge k Sorted Lists,23,Hard,58.9,76.2,S,Linked List/Heap/Divide&Conquer,Amazon;Google;Meta;Uber
+8,Add Two Numbers,2,Medium,48.0,75.0,S,Linked List/Math,Amazon;Google;Meta;Uber
+9,Trapping Rain Water,42,Hard,66.8,74.9,S,Array/Two Pointers/Stack/DP,Amazon;Google;Meta;Uber
+10,Longest Substring Without Repeating Characters,3,Medium,38.5,74.0,S,Hash Table/String/Sliding Window,Amazon;Google;Meta;Uber
+11,Next Permutation,31,Medium,44.8,73.2,S,Array/Two Pointers,Amazon;Google;Meta;Uber
+12,3Sum,15,Medium,38.6,72.8,S,Array/Two Pointers/Sorting,Amazon;Google;Meta;Uber
+13,Group Anagrams,49,Medium,72.2,72.7,S,Array/Hash Table/String/Sorting,Amazon;Google;Meta;Uber
+14,Longest Common Prefix,14,Easy,47.1,72.6,S,String/Trie,Amazon;Google;Meta;Uber
+15,Letter Combinations of a Phone Number,17,Medium,65.5,72.2,S,Hash Table/String/Backtracking,Amazon;Google;Meta;Uber
+16,Valid Parentheses,20,Easy,43.7,72.1,S,String/Stack,Amazon;Google;Meta;Uber
+17,Search in Rotated Sorted Array,33,Medium,44.1,71.9,S,Array/Binary Search,Amazon;Google;Meta;Uber
+18,Random Pick with Weight,528,Medium,48.9,70.9,S,Array/Math/Binary Search/Prefix Sum,Amazon;Google;Meta;Uber
+19,Kth Largest Element in an Array,215,Medium,68.8,70.3,S,Array/Heap/Quickselect,Amazon;Google;Meta;Uber
+20,Find Peak Element,162,Medium,46.8,68.8,S,Array/Binary Search,Amazon;Google;Meta;Uber
+21,Course Schedule,207,Medium,50.8,68.1,S,Graph/DFS/BFS/Topological Sort,Amazon;Google;Meta;Uber
+22,Roman to Integer,13,Easy,66.3,67.7,S,Hash Table/Math/String,Amazon;Google;Meta;Uber
+23,Spiral Matrix,54,Medium,56.2,67.6,S,Array/Matrix/Simulation,Amazon;Google;Meta;Uber
+24,Subarray Sum Equals K,560,Medium,46.8,67.6,S,Array/Hash Table/Prefix Sum,Amazon;Google;Meta;Uber
+25,Container With Most Water,11,Medium,59.6,67.4,S,Array/Two Pointers/Greedy,Amazon;Google;Meta;Uber
+26,Median of Two Sorted Arrays,4,Hard,46.0,67.4,S,Array/Binary Search/Divide&Conquer,Amazon;Google;Meta;Uber
+27,Merge Strings Alternately,1768,Easy,82.1,67.4,S,Two Pointers/String,Amazon;Google;Meta;Uber
+28,Merge Sorted Array,88,Easy,54.4,67.4,S,Array/Two Pointers,Amazon;Google;Meta
+29,Minimum Window Substring,76,Hard,47.0,67.3,S,Hash Table/String/Sliding Window,Amazon;Google;Meta;Uber
+30,Squares of a Sorted Array,977,Easy,73.6,67.3,S,Array/Two Pointers/Sorting,Amazon;Google;Meta;Uber
+31,Longest Palindromic Substring,5,Medium,37.4,67.2,S,Two Pointers/String/DP,Amazon;Google;Meta;Uber
+32,Product of Array Except Self,238,Medium,68.6,67.1,S,Array/Prefix Sum,Amazon;Google;Meta;Uber
+33,Word Search,79,Medium,46.9,66.8,S,Array/String/Backtracking/Matrix,Amazon;Google;Meta;Uber
+34,Generate Parentheses,22,Medium,78.3,65.9,S,String/DP/Backtracking,Amazon;Google;Meta;Uber
+35,Subsets,78,Medium,82.1,65.7,S,Array/Backtracking/Bit Manipulation,Amazon;Google;Meta;Uber
+36,Copy List with Random Pointer,138,Medium,62.4,65.6,S,Hash Table/Linked List,Amazon;Google;Meta;Uber
+37,Binary Tree Right Side View,199,Medium,69.5,65.3,S,Tree/BFS/DFS,Amazon;Google;Meta;Uber
+38,Maximum Subarray,53,Medium,53.0,65.2,S,Array/Divide&Conquer/DP,Amazon;Google;Meta;Uber
+39,Palindrome Number,9,Easy,60.3,64.7,S,Math,Amazon;Google;Meta;Uber
+40,Valid Palindrome,125,Easy,52.8,64.4,S,Two Pointers/String,Amazon;Google;Meta;Uber
+41,Find First and Last Position of Element in Sorted Array,34,Medium,48.4,63.8,S,Array/Binary Search,Amazon;Google;Meta;Uber
+42,Meeting Rooms II,253,Medium,52.6,63.4,S,Array/Two Pointers/Greedy/Sorting/Heap,Amazon;Google;Meta;Uber
+43,Rotate Image,48,Medium,79.4,62.5,S,Array/Math/Matrix,Amazon;Google;Meta;Uber
+44,Koko Eating Bananas,875,Medium,49.7,62.2,S,Array/Binary Search,Amazon;Google;Meta;Uber
+45,Longest Consecutive Sequence,128,Medium,47.0,62.1,S,Array/Hash Table/Union Find,Amazon;Google;Meta;Uber
+46,Reverse Integer,7,Medium,31.5,61.4,S,Math,Amazon;Google;Meta;Uber
+47,Remove Duplicates from Sorted Array,26,Easy,62.3,61.3,S,Array/Two Pointers,Amazon;Google;Meta;Uber
+48,Largest Rectangle in Histogram,84,Hard,49.4,60.7,S,Array/Stack/Monotonic Stack,Amazon;Google;Meta;Uber
+49,Climbing Stairs,70,Easy,53.9,60.4,S,Math/DP/Memoization,Amazon;Google;Meta;Uber
+50,Word Break,139,Medium,49.1,60.4,S,Hash Table/String/DP/Trie,Amazon;Google;Meta;Uber
+51,Majority Element,169,Easy,66.1,59.5,S,Array/Hash Table/Divide&Conquer,Amazon;Google;Meta;Uber
+52,String to Integer (atoi),8,Medium,20.6,59.5,S,String,Amazon;Google;Meta;Uber
+53,Regular Expression Matching,10,Hard,30.5,59.3,S,String/DP/Recursion,Amazon;Google;Meta;Uber
+54,Valid Sudoku,36,Medium,64.2,59.3,S,Array/Hash Table/Matrix,Amazon;Google;Meta;Uber
+55,Find Median from Data Stream,295,Hard,54.2,59.2,S,Two Pointers/Design/Heap,Amazon;Google;Meta;Uber
+56,Kth Smallest Element in a BST,230,Medium,76.5,59.1,S,Tree/DFS/BST,Amazon;Google;Meta;Uber
+57,Basic Calculator II,227,Medium,46.7,58.1,S,Math/String/Stack,Amazon;Google;Meta;Uber
+58,Clone Graph,133,Medium,64.7,57.4,S,Graph/DFS/BFS/Hash Table,Amazon;Google;Meta;Uber
+59,Making A Large Island,827,Hard,56.3,57.4,S,Array/DFS/BFS/Union Find/Matrix,Amazon;Google;Meta;Uber
+60,Reverse Linked List,206,Easy,80.3,57.3,S,Linked List/Recursion,Amazon;Google;Meta;Uber
+61,Valid Palindrome II,680,Easy,44.0,56.9,S,Two Pointers/String/Greedy,Amazon;Google;Meta;Uber
+62,House Robber,198,Medium,52.9,56.8,S,Array/DP,Amazon;Google;Meta;Uber
+63,Alien Dictionary,269,Hard,37.1,56.7,S,Array/String/Graph/Topological Sort,Amazon;Google;Meta;Uber
+64,Course Schedule II,210,Medium,55.0,56.3,S,Graph/DFS/BFS/Topological Sort,Amazon;Google;Meta;Uber
+65,"Pow(x, n)",50,Medium,38.3,56.3,S,Math/Recursion,Amazon;Google;Meta
+66,Lowest Common Ancestor of a Binary Tree,236,Medium,68.8,56.2,S,Tree/DFS,Amazon;Google;Meta
+67,Simplify Path,71,Medium,50.0,55.6,S,String/Stack,Amazon;Google;Meta;Uber
+68,Move Zeroes,283,Easy,63.6,55.3,S,Array/Two Pointers,Amazon;Google;Meta;Uber
+69,Combination Sum,39,Medium,76.1,55.0,S,Array/Backtracking,Amazon;Google;Meta;Uber
+70,Sudoku Solver,37,Hard,65.4,54.8,S,Array/Backtracking/Matrix,Amazon;Google;Meta;Uber
+71,Sqrt(x),69,Easy,41.4,54.7,S,Math/Binary Search,Amazon;Google;Meta;Uber
+72,Word Ladder,127,Hard,44.9,54.6,S,Hash Table/String/BFS,Amazon;Google;Meta;Uber
+73,Recyclable and Low Fat Products,1757,Easy,88.7,54.1,S,Database,Amazon;Google;Meta;Uber
+74,Binary Tree Maximum Path Sum,124,Hard,42.0,53.7,S,Tree/DFS/DP,Amazon;Google;Meta;Uber
+75,Set Matrix Zeroes,73,Medium,62.5,53.3,S,Array/Hash Table/Matrix,Amazon;Google;Meta;Uber
+76,Insert Delete GetRandom O(1),380,Medium,55.3,53.1,S,Array/Hash Table/Math/Design,Amazon;Google;Uber
+77,Valid Anagram,242,Easy,67.8,52.9,S,Hash Table/String/Sorting,Amazon;Google;Uber
+78,Merge Two Sorted Lists,21,Easy,68.0,52.8,S,Linked List/Recursion,Amazon;Google;Meta
+79,Word Search II,212,Hard,38.1,52.5,S,Array/String/Backtracking/Trie/Matrix,Amazon;Google;Meta;Uber
+80,Remove Element,27,Easy,61.4,52.2,A,Array/Two Pointers,Amazon;Google;Meta;Uber
+81,Maximum Depth of Binary Tree,104,Easy,77.9,51.5,A,Tree/DFS/BFS,Amazon;Google;Meta;Uber
+82,Permutations,46,Medium,81.7,51.5,A,Array/Backtracking,Amazon;Google;Meta;Uber
+83,Diameter of Binary Tree,543,Easy,65.1,50.9,A,Tree/DFS,Amazon;Google;Meta
+84,Rotting Oranges,994,Medium,58.2,50.5,A,Array/BFS/Matrix,Amazon;Google;Uber
+85,Decode Ways,91,Medium,37.6,49.9,A,String/DP,Amazon;Google;Meta;Uber
+86,Create Hello World Function,2667,Easy,82.0,49.1,A,JavaScript,Amazon;Google;Meta
+87,Word Break II,140,Hard,55.1,48.9,A,Hash Table/String/DP/Backtracking/Trie,Amazon;Google;Meta;Uber
+88,Max Consecutive Ones III,1004,Medium,67.3,48.7,A,Array/Binary Search/Sliding Window,Amazon;Google;Meta
+89,Capacity To Ship Packages Within D Days,1011,Medium,73.5,48.3,A,Array/Binary Search,Amazon;Google;Meta;Uber
+90,Remove Nth Node From End of List,19,Medium,51.0,48.2,A,Linked List/Two Pointers,Amazon;Google;Meta
+91,Basic Calculator,224,Hard,46.6,48.1,A,Math/String/Stack/Recursion,Amazon;Google;Uber
+92,Jump Game,55,Medium,40.5,47.9,A,Array/DP/Greedy,Amazon;Google;Meta
+93,Reverse Nodes in k-Group,25,Hard,65.4,47.7,A,Linked List/Recursion,Amazon;Google;Meta;Uber
+94,Sort Colors,75,Medium,69.2,47.7,A,Array/Two Pointers/Sorting,Amazon;Google;Meta
+95,Insert Interval,57,Medium,44.8,47.5,A,Array,Amazon;Google;Meta;Uber
+96,Accounts Merge,721,Medium,60.9,47.0,A,Array/Hash Table/String/Union Find/DFS,Amazon;Google;Meta;Uber
+97,Coin Change,322,Medium,48.0,47.0,A,Array/DP/BFS,Amazon;Google;Uber
+98,Evaluate Division,399,Medium,64.0,47.0,A,Graph/DFS/BFS/Union Find,Amazon;Google;Uber
+99,Text Justification,68,Hard,50.5,46.6,A,Array/String/Simulation,Google;Meta;Uber
+100,Min Stack,155,Medium,57.7,46.3,A,Stack/Design,Amazon;Google;Uber
+101,Serialize and Deserialize Binary Tree,297,Hard,60.4,45.8,A,Tree/DFS/BFS/Design,Amazon;Google;Uber
+102,Sliding Window Maximum,239,Hard,48.5,45.1,A,Array/Sliding Window/Heap/Monotonic Queue,Amazon;Google;Uber
+103,Contains Duplicate,217,Easy,64.1,45.0,A,Array/Hash Table/Sorting,Amazon;Google;Meta;Uber
+104,Rotate Array,189,Medium,44.5,44.9,A,Array/Math/Two Pointers,Amazon;Google;Meta
+105,Remove Duplicates from Sorted Array II,80,Medium,64.3,44.6,A,Array/Two Pointers,Amazon;Google;Meta;Uber
+106,Swap Nodes in Pairs,24,Medium,69.0,44.6,A,Linked List/Recursion,Amazon;Google;Meta;Uber
+107,Validate Binary Search Tree,98,Medium,35.4,44.6,A,Tree/DFS/BST,Amazon;Google;Meta;Uber
+108,Find the Index of the First Occurrence in a String,28,Easy,46.3,44.6,A,Two Pointers/String/String Matching,Amazon;Google;Meta
+109,Happy Number,202,Easy,59.3,44.5,A,Hash Table/Math/Two Pointers,Amazon;Google;Uber
+110,Unique Paths,62,Medium,66.6,44.5,A,Math/DP/Combinatorics,Amazon;Google;Meta
+111,Plus One,66,Easy,49.6,44.4,A,Array/Math,Amazon;Google;Meta
+112,4Sum,18,Medium,40.0,44.2,A,Array/Two Pointers/Sorting,Amazon;Google;Meta
+113,Exclusive Time of Functions,636,Medium,66.1,44.0,A,Array/Stack,Google;Meta;Uber
+114,Add Binary,67,Easy,57.7,43.8,A,Math/String/Bit Manipulation,Amazon;Google;Meta
+115,K Closest Points to Origin,973,Medium,68.8,43.6,A,Array/Heap/Quickselect/Sorting,Amazon;Google;Meta
+116,Longest Repeating Character Replacement,424,Medium,59.1,43.5,A,Hash Table/String/Sliding Window,Amazon;Google;Uber
+117,N-Queens,51,Hard,75.0,43.4,A,Array/Backtracking,Amazon;Google;Meta
+118,Asteroid Collision,735,Medium,47.2,43.0,A,Array/Stack,Amazon;Google;Uber
+119,Find Minimum in Rotated Sorted Array,153,Medium,53.8,42.4,A,Array/Binary Search,Amazon;Google;Meta;Uber
+120,Best Time to Buy and Sell Stock II,122,Medium,70.8,42.3,A,Array/DP/Greedy,Amazon;Google;Meta
+121,Pascal's Triangle,118,Easy,78.7,42.3,A,Array/DP,Amazon;Google;Meta
+122,Zigzag Conversion,6,Medium,53.6,42.2,A,String,Amazon;Google;Meta
+123,Find K Closest Elements,658,Medium,49.4,42.0,A,Array/Two Pointers/Binary Search/Heap,Amazon;Google;Meta;Uber
+124,Split Array Largest Sum,410,Hard,59.9,41.9,A,Array/Binary Search/DP,Amazon;Google;Uber
+125,Search Insert Position,35,Easy,50.7,41.8,A,Array/Binary Search,Amazon;Google;Meta
+126,First Missing Positive,41,Hard,42.5,41.7,A,Array/Hash Table,Amazon;Google;Meta
+127,Search a 2D Matrix,74,Medium,53.6,41.2,A,Array/Binary Search/Matrix,Amazon;Google;Meta
+128,Longest Valid Parentheses,32,Hard,38.1,40.8,A,String/DP/Stack,Amazon;Google;Meta;Uber
+129,Two Sum II - Input Array Is Sorted,167,Medium,64.6,40.8,A,Array/Two Pointers/Binary Search,Amazon;Google;Meta
+130,Construct Binary Tree from Preorder and Inorder Traversal,105,Medium,68.4,40.7,A,Array/Hash Table/Divide&Conquer/Tree,Amazon;Google;Meta;Uber
+131,Minimum Path Sum,64,Medium,67.8,40.7,A,Array/DP/Matrix,Amazon;Google;Meta;Uber
+132,Jump Game II,45,Medium,42.5,40.7,A,Array/DP/Greedy,Amazon;Google;Meta
+133,Task Scheduler,621,Medium,62.7,40.6,A,Array/Hash Table/Greedy/Heap,Amazon;Google;Uber
+134,3Sum Closest,16,Medium,48.1,40.5,A,Array/Two Pointers/Sorting,Amazon;Google;Meta
+135,Binary Tree Level Order Traversal,102,Medium,72.2,40.5,A,Tree/BFS/Binary Tree,Amazon;Google;Meta
+136,Decode String,394,Medium,62.3,40.3,A,String/Stack/Recursion,Amazon;Google;Meta
+137,Single Number,136,Easy,77.4,40.3,A,Array/Bit Manipulation,Amazon;Google;Meta
+138,Binary Tree Zigzag Level Order Traversal,103,Medium,63.2,40.2,A,Tree/BFS/Binary Tree,Amazon;Google;Meta
+139,Candy,135,Hard,48.0,40.1,A,Array/Greedy,Amazon;Google;Uber
+140,Top K Frequent Words,692,Medium,60.0,40.1,A,Hash Table/String/Trie/Heap/Sorting,Amazon;Google;Uber
+141,Contains Duplicate II,219,Easy,50.8,39.7,A,Array/Hash Table/Sliding Window,Amazon;Google;Meta
+142,House Robber III,337,Medium,55.6,39.3,A,Tree/DFS/DP,Amazon;Google;Uber
+143,Group Shifted Strings,249,Medium,67.7,39.0,A,Array/Hash Table/String,Google;Meta;Uber
+144,Lowest Common Ancestor of a Binary Tree III,1650,Medium,82.9,39.0,A,Tree/Hash Table,Amazon;Meta
+145,Flood Fill,733,Easy,67.9,38.9,A,Array/DFS/BFS/Matrix,Amazon;Google;Uber
+146,Bus Routes,815,Hard,47.1,38.7,A,Array/Hash Table/Breadth-First Search,Google;Uber
+147,All Nodes Distance K in Binary Tree,863,Medium,67.4,38.2,A,Tree/DFS/BFS/Hash Table,Amazon;Google;Meta
+148,Maximal Rectangle,85,Hard,58.1,38.1,A,Array/DP/Stack/Matrix,Amazon;Google;Meta
+149,Next Greater Element I,496,Easy,75.8,38.1,A,Array/Hash Table/Stack/Monotonic Stack,Amazon;Google;Uber
+150,LFU Cache,460,Hard,48.6,38.0,A,Hash Table/Linked List/Design,Amazon;Google;Uber
+151,Longest Increasing Subsequence,300,Medium,59.1,37.8,A,Array/Binary Search/DP,Amazon;Google;Uber
+152,Divide Two Integers,29,Medium,19.4,37.5,A,Math/Bit Manipulation,Amazon;Google;Meta
+153,Number of Provinces,547,Medium,70.0,37.5,A,Graph/DFS/BFS/Union Find,Amazon;Google;Uber
+154,Reverse Words in a String,151,Medium,55.6,37.4,A,Two Pointers/String,Amazon;Google;Meta
+155,Edit Distance,72,Medium,60.2,37.2,A,String/DP,Amazon;Google;Meta
+156,Diagonal Traverse,498,Medium,67.0,37.1,A,Array/Matrix/Simulation,Amazon;Google;Meta
+157,Vertical Order Traversal of a Binary Tree,987,Hard,53.3,37.1,A,Tree/DFS/BFS/Hash Table,Amazon;Google;Meta
+158,Rotate List,61,Medium,41.2,36.9,A,Linked List/Two Pointers,Amazon;Google;Meta
+159,Count and Say,38,Medium,62.3,36.5,A,String,Amazon;Google;Meta
+160,Shortest Path in Binary Matrix,1091,Medium,51.1,36.5,A,Array/BFS/Matrix,Google;Meta;Uber
+161,Implement Trie (Prefix Tree),208,Medium,69.2,36.4,A,Hash Table/String/Design/Trie,Amazon;Google;Uber
+162,Subsets II,90,Medium,60.9,36.3,A,Array/Backtracking/Bit Manipulation,Amazon;Google;Meta
+163,Pacific Atlantic Water Flow,417,Medium,60.6,36.1,A,Array/DFS/BFS/Matrix,Amazon;Google;Uber
+164,Next Greater Element II,503,Medium,67.9,36.0,A,Array/Stack/Monotonic Stack,Amazon;Google;Uber
+165,Number of Islands II,305,Hard,40.4,36.0,A,Union-Find,Google;Uber
+166,Linked List Cycle,141,Easy,53.9,35.8,A,Hash Table/Linked List/Two Pointers,Amazon;Google;Uber
+167,Binary Tree Vertical Order Traversal,314,Medium,57.8,35.8,A,Tree/BFS,Google;Meta
+168,String Compression,443,Medium,59.6,35.3,A,Two Pointers/String,Amazon;Google;Uber
+169,Integer to Roman,12,Medium,70.5,35.1,A,Hash Table/Math/String,Amazon;Google;Meta
+170,Length of Last Word,58,Easy,58.3,34.7,A,String,Amazon;Google;Meta
+171,Kth Missing Positive Number,1539,Easy,63.2,34.5,A,Array/Binary Search,Google;Meta;Uber
+172,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,1438,Medium,57.4,34.5,A,Array/Queue/Sliding Window,Google;Uber
+173,Minimum Size Subarray Sum,209,Medium,51.1,34.4,A,Array/Binary Search/Sliding Window/Prefix Sum,Amazon;Google;Meta
+174,Palindrome Partitioning,131,Medium,73.7,34.4,A,String/DP/Backtracking,Amazon;Google;Meta
+175,Symmetric Tree,101,Easy,60.8,34.3,A,Tree/DFS/BFS,Amazon;Google;Meta
+176,Isomorphic Strings,205,Easy,48.1,34.2,A,Hash Table/String,Amazon;Google;Uber
+177,Same Tree,100,Easy,66.7,34.2,A,Tree/DFS/BFS,Amazon;Google;Meta
+178,Search a 2D Matrix II,240,Medium,56.9,34.2,A,Array/Binary Search/Matrix/Divide&Conquer,Amazon;Google;Uber
+179,Subarrays with K Different Integers,992,Hard,67.6,34.2,A,Array/Hash Table/Sliding Window,Amazon;Google;Uber
+180,Count Primes,204,Medium,35.8,34.1,A,Array/Math/Number Theory,Amazon;Google;Uber
+181,Cheapest Flights Within K Stops,787,Medium,41.4,33.9,A,Graph/DP/BFS/Shortest Path,Amazon;Google;Uber
+182,Add Strings,415,Easy,52.1,33.8,A,Math/String/Simulation,Google;Meta;Uber
+183,Reorganize String,767,Medium,56.8,33.8,A,Greedy/Heap/String,Amazon;Google
+184,Reverse Linked List II,92,Medium,51.0,33.6,A,Linked List,Amazon;Google;Meta
+185,Surrounded Regions,130,Medium,44.8,32.8,A,Array/DFS/BFS/Union Find/Matrix,Amazon;Google;Uber
+186,Burst Balloons,312,Hard,63.0,32.7,A,Array/DP,Amazon;Google;Uber
+187,Word Ladder II,126,Hard,27.5,32.6,A,Hash Table/String/BFS/Backtracking,Amazon;Google;Uber
+188,Time Based Key-Value Store,981,Medium,49.7,32.0,A,Hash Table/String/Binary Search/Design,Amazon;Uber
+189,Design Hit Counter,362,Medium,69.6,31.9,A,Design/Queue,Google;Uber
+190,Single Element in a Sorted Array,540,Medium,59.2,31.9,A,Array/Binary Search,Amazon;Google
+191,Fruit Into Baskets,904,Medium,50.5,30.9,A,Array/Hash Table/Sliding Window,Amazon;Google
+192,Binary Search Tree Iterator,173,Medium,76.2,30.8,A,Stack/Tree/BST/Design,Google;Meta;Uber
+193,Robot Room Cleaner,489,Hard,77.9,30.8,A,Backtracking/Interactive,Google;Meta;Uber
+194,Palindrome Linked List,234,Easy,57.5,30.8,A,Linked List/Two Pointers/Stack,Amazon;Google
+195,Balanced Binary Tree,110,Easy,57.9,30.6,A,Tree/DFS/Binary Tree,Amazon;Google;Meta
+196,Swim in Rising Water,778,Hard,67.6,30.6,A,Array/Binary Search/DFS/BFS/Union Find/Heap,Google;Meta;Uber
+197,My Calendar I,729,Medium,58.2,30.3,A,Array/Binary Search/Design/Ordered Set,Google;Uber
+198,Concatenation of Array,1929,Easy,90.5,29.9,A,Array/Simulation,Amazon;Google
+199,Daily Temperatures,739,Medium,68.4,29.9,A,Array/Stack/Monotonic Stack,Amazon;Google
+200,Max Consecutive Ones,485,Easy,64.6,29.9,A,Array,Amazon;Google
+201,Contiguous Array,525,Medium,50.8,29.8,A,Array/Hash Table/Prefix Sum,Amazon;Google;Uber
+202,Maximum Product Subarray,152,Medium,36.0,29.7,A,Array/DP,Amazon;Google
+203,Intersection of Two Arrays,349,Easy,77.5,29.3,A,Array/Hash Table/Two Pointers/Sorting,Amazon;Google
+204,Find the Duplicate Number,287,Medium,64.0,28.9,A,Array/Two Pointers/Binary Search,Amazon;Google
+205,Minimum Remove to Make Valid Parentheses,1249,Medium,71.3,28.9,A,String/Stack,Meta
+206,Middle of the Linked List,876,Easy,81.6,28.8,A,Linked List/Two Pointers,Amazon;Google
+207,Missing Number,268,Easy,71.7,28.8,A,Array/Hash Table/Math/Bit Manipulation,Amazon;Google
+208,Frequency of the Most Frequent Element,1838,Medium,44.6,28.5,A,Array/Binary Search/Greedy/Sliding Window/Sorting,Google;Meta;Uber
+209,Custom Sort String,791,Medium,72.3,28.4,A,Hash Table/String/Sorting,Meta;Uber
+210,Partition Equal Subset Sum,416,Medium,49.2,28.2,A,Array/DP,Amazon;Google
+211,First Unique Character in a String,387,Easy,65.1,28.0,A,Hash Table/String/Queue/Counting,Amazon;Google
+212,Evaluate Reverse Polish Notation,150,Medium,57.1,27.8,A,Array/Math/Stack,Amazon;Google;Meta
+213,Sum of Subarray Minimums,907,Medium,38.3,27.8,A,Array/DP/Stack/Monotonic Stack,Amazon;Google
+214,Search in Rotated Sorted Array II,81,Medium,39.8,27.6,A,Array/Binary Search,Google;Meta;Uber
+215,Sliding Window Median,480,Hard,38.9,27.6,A,Array/Heap/Sliding Window,Google;Meta
+216,Valid Word Abbreviation,408,Easy,37.0,27.5,A,Two Pointers/String,Meta
+217,Binary Search,704,Easy,60.5,27.3,A,Array/Binary Search,Amazon;Google
+218,Gas Station,134,Medium,47.5,27.1,A,Array/Greedy,Amazon;Google
+219,Peak Index in a Mountain Array,852,Medium,66.9,27.1,A,Array/Binary Search,Amazon;Google
+220,Largest Number,179,Medium,42.6,26.9,B,Array/String/Greedy/Sorting,Amazon;Google
+221,Check if Array Is Sorted and Rotated,1752,Easy,55.7,26.8,B,Array,Amazon;Google
+222,Meeting Rooms III,2402,Hard,51.6,26.7,B,Array/Hash Table/Sorting/Heap,Google;Uber
+223,Moving Average from Data Stream,346,Easy,80.2,26.7,B,Array/Design/Queue,Google;Meta
+224,Reorder List,143,Medium,64.6,26.6,B,Linked List/Two Pointers/Stack/Recursion,Amazon;Google
+225,Odd Even Linked List,328,Medium,62.3,26.5,B,Linked List,Amazon;Google
+226,Add Two Integers,2235,Easy,87.9,26.2,B,Math,Google;Meta
+227,Open the Lock,752,Medium,61.2,26.1,B,Array/Hash Table/String/BFS,Amazon;Uber
+228,Analyze User Website Visit Pattern,1152,Medium,44.2,25.6,B,Array/Hash Table/Sorting,Amazon;Uber
+229,Maximal Square,221,Medium,50.0,25.6,B,Array/DP/Matrix,Amazon;Google
+230,Permutation in String,567,Medium,48.5,25.6,B,Hash Table/Two Pointers/String/Sliding Window,Amazon;Google
+231,Reverse Pairs,493,Hard,33.7,25.5,B,Array/Binary Search/Divide&Conquer/Merge Sort,Amazon;Google
+232,Reverse String,344,Easy,80.6,25.5,B,Two Pointers/String,Amazon;Google
+233,Remove K Digits,402,Medium,36.4,25.3,B,String/Stack/Greedy/Monotonic Stack,Amazon;Google
+234,Construct Quad Tree,427,Medium,78.5,25.3,B,Array/Divide and Conquer/Tree/Matrix,Uber
+235,Find the Closest Palindrome,564,Hard,32.0,25.3,B,Math/String,Uber
+236,Integer to English Words,273,Hard,34.8,25.2,B,Math/String/Recursion,Amazon;Google
+237,Intersection of Two Linked Lists,160,Easy,63.2,25.2,B,Hash Table/Linked List/Two Pointers,Amazon;Google
+238,Target Sum,494,Medium,51.9,25.2,B,Array/DP/Backtracking,Amazon;Google
+239,Rotate String,796,Easy,65.1,25.0,B,String/String Matching,Amazon;Google
+240,Multiply Strings,43,Medium,43.6,24.9,B,Math/String/Simulation,Google;Meta
+241,Find K Pairs with Smallest Sums,373,Medium,41.6,24.7,B,Array/Heap,Google;Uber
+242,Invert Binary Tree,226,Easy,79.8,24.6,B,Tree/DFS/BFS,Amazon;Google
+243,Lowest Common Ancestor of a Binary Search Tree,235,Medium,70.1,24.4,B,Tree/DFS/BST,Amazon;Meta
+244,Populating Next Right Pointers in Each Node,116,Medium,66.9,24.4,B,Linked List/Tree/BFS/DFS,Amazon;Meta
+245,Sort List,148,Medium,63.9,24.4,B,Linked List/Two Pointers/Divide&Conquer/Merge Sort,Amazon;Google
+246,The Earliest Moment When Everyone Become Friends,1101,Medium,65.9,24.4,B,Array/Union-Find/Sorting,Google;Uber
+247,Majority Element II,229,Medium,55.8,24.1,B,Array/Hash Table/Sorting/Counting,Amazon;Google
+248,Remove Duplicates from Sorted List,83,Easy,56.3,24.1,B,Linked List,Amazon;Google
+249,Expression Add Operators,282,Hard,42.8,23.9,B,Math/String/Backtracking,Google;Meta
+250,Minimum Number of Days to Make m Bouquets,1482,Medium,56.3,23.8,B,Array/Binary Search,Amazon;Google
+251,Minimum Add to Make Parentheses Valid,921,Medium,74.4,23.6,B,String/Stack/Greedy,Google;Meta
+252,Nested List Weight Sum,339,Medium,85.9,23.6,B,DFS/BFS,Meta
+253,Is Subsequence,392,Easy,48.9,23.5,B,Two Pointers/String/DP,Amazon;Google
+254,Online Stock Span,901,Medium,68.7,23.4,B,Stack/Design/Monotonic Stack,Amazon;Google
+255,Delete Node in a BST,450,Medium,54.2,23.3,B,Tree/Binary Search Tree/Binary Tree,Google;Uber
+256,Design Parking System,1603,Easy,87.2,23.3,B,Design/Simulation/Counting,Amazon;Uber
+257,Regions Cut By Slashes,959,Medium,77.5,23.3,B,Array/Hash Table/DFS/Union-Find/Matrix,Google;Uber
+258,Linked List Cycle II,142,Medium,57.3,23.2,B,Hash Table/Linked List/Two Pointers,Amazon;Google
+259,Trapping Rain Water II,407,Hard,64.0,23.2,B,Array/Heap/BFS/Matrix,Amazon;Google
+260,Sum Root to Leaf Numbers,129,Medium,69.6,23.2,B,Tree/DFS,Meta
+261,Wildcard Matching,44,Hard,31.4,23.0,B,String/DP/Greedy/Recursion,Google;Meta
+262,Find All Anagrams in a String,438,Medium,53.3,22.9,B,Hash Table/String/Sliding Window,Amazon;Google
+263,Rearrange Array Elements by Sign,2149,Medium,84.5,22.9,B,Array/Two Pointers/Simulation,Amazon;Google
+264,Min Cost Climbing Stairs,746,Easy,68.0,22.8,B,Array/DP,Amazon;Google
+265,Palindromic Substrings,647,Medium,72.6,22.8,B,Two Pointers/String/DP,Google;Meta
+266,Russian Doll Envelopes,354,Hard,37.7,22.6,B,Array/Binary Search/Dynamic Programming/Sorting,Google;Uber
+267,Sort Characters By Frequency,451,Medium,75.1,22.3,B,Hash Table/String/Sorting/Heap,Amazon;Google
+268,Longest Common Subsequence,1143,Medium,58.9,22.2,B,String/DP,Amazon;Google
+269,Kth Largest Element in a Stream,703,Easy,60.7,22.0,B,Tree/Design/BST/Heap,Amazon;Google
+270,Maximum Swap,670,Medium,51.9,22.0,B,Math/Greedy,Google;Meta
+271,Longest Increasing Path in a Matrix,329,Hard,56.3,21.9,B,Array/Dynamic Programming/DFS/Memoization,Google;Uber
+272,Maximum Profit in Job Scheduling,1235,Hard,54.6,21.9,B,Array/Binary Search/DP/Sorting,Amazon;Uber
+273,Shortest Palindrome,214,Hard,41.9,21.9,B,String/Rolling Hash/String Matching,Google;Uber
+274,First Unique Number,1429,Medium,57.7,21.7,B,Hash Table/Design/Queue,Uber
+275,Buildings With an Ocean View,1762,Medium,80.9,21.6,B,Array/Stack/Monotonic Stack,Meta
+276,Find All Possible Recipes from Given Supplies,2115,Medium,56.8,21.5,B,Array/Hash Table/String/Graph/Topological Sort,Google;Uber
+277,Number of Matching Subsequences,792,Medium,50.6,21.4,B,Array/Hash Table/String/Sorting,Google;Uber
+278,Add Digits,258,Easy,68.6,21.3,B,Math/Simulation/Number Theory,Google;Uber
+279,Binary Tree Inorder Traversal,94,Easy,79.7,21.3,B,Stack/Tree/DFS,Google;Meta
+280,Closest Binary Search Tree Value,270,Easy,49.3,20.8,B,Tree/BST/DFS/Binary Search,Meta;Uber
+281,Maximum Width of Binary Tree,662,Medium,45.3,20.6,B,Tree/DFS/BFS,Amazon;Uber
+282,Non-overlapping Intervals,435,Medium,56.7,20.6,B,Array/DP/Greedy/Sorting,Amazon;Google
+283,The Skyline Problem,218,Hard,45.0,20.6,B,Array/Divide and Conquer/Binary Indexed Tree/Segment Tree,Google;Uber
+284,Maximum Points You Can Obtain from Cards,1423,Medium,57.3,20.4,B,Array/Sliding Window/Prefix Sum,Google;Uber
+285,Detonate the Maximum Bombs,2101,Medium,49.9,20.3,B,Array/Math/DFS/BFS/Graph/Geometry,Google;Uber
+286,Minimum Cost to Make at Least One Valid Path in a Grid,1368,Hard,70.9,20.3,B,Array/BFS/Graph/0-1 BFS,Google;Uber
+287,Reconstruct Itinerary,332,Hard,44.3,20.3,B,Array/String/DFS/Graph/Eulerian Path,Google;Uber
+288,Valid Number,65,Hard,22.6,20.3,B,String,Meta
+289,Interval List Intersections,986,Medium,72.9,20.1,B,Array/Two Pointers,Meta;Uber
+290,Dot Product of Two Sparse Vectors,1570,Medium,89.9,20.1,B,Array/Hash Table/Two Pointers,Meta
+291,Range Sum of BST,938,Easy,87.6,20.1,B,Tree/BST/DFS,Meta
+292,Maximum Average Subarray I,643,Easy,47.1,19.9,B,Array/Sliding Window,Google;Uber
+293,Combination Sum II,40,Medium,59.0,19.8,B,Array/Backtracking,Google;Meta
+294,Subarray Sums Divisible by K,974,Medium,56.1,19.5,B,Array/Hash Table/Prefix Sum,Google;Uber
+295,Car Pooling,1094,Medium,56.2,19.0,B,Array/Prefix Sum/Heap,Meta;Uber
+296,Strobogrammatic Number,246,Easy,47.5,19.0,B,Hash Table/Two Pointers/String,Meta;Uber
+297,Unique Paths II,63,Medium,44.2,19.0,B,Array/DP/Matrix,Google;Meta
+298,Maximum Width Ramp,962,Medium,55.8,18.9,B,Array/Two Pointers/Stack/Monotonic Stack,Google;Uber
+299,Largest Divisible Subset,368,Medium,49.4,18.8,B,Array/Math/Dynamic Programming/Sorting,Google;Uber
+300,24 Game,679,Hard,59.3,18.7,B,Array/Math/Backtracking,Google;Uber
+301,Ransom Note,383,Easy,65.7,18.6,B,Hash Table/String/Counting,Google;Uber
+302,Range Sum Query - Immutable,303,Easy,71.4,18.5,B,Array/Design/Prefix Sum,Google;Meta
+303,01 Matrix,542,Medium,53.4,18.3,B,Array/Dynamic Programming/BFS/Matrix,Google;Uber
+304,Shortest Path in a Grid with Obstacles Elimination,1293,Hard,46.1,18.2,B,Array/BFS/Matrix,Google;Uber
+305,All O`one Data Structure,432,Hard,44.3,18.0,B,Hash Table/Linked List/Design,Uber
+306,Block Placement Queries,3161,Hard,41.5,18.0,B,Array/Binary Search/Binary Indexed Tree/Segment Tree,Uber
+307,Cherry Pickup,741,Hard,39.8,18.0,B,Array/Dynamic Programming/Matrix,Uber
+308,Count Subarrays With Fixed Bounds,2444,Hard,69.2,18.0,B,Array/Queue/Sliding Window,Uber
+309,Design In-Memory File System,588,Hard,48.3,18.0,B,Trie/Design/Hash Table,Uber
+310,Divide Nodes Into the Maximum Number of Groups,2493,Hard,66.9,18.0,B,DFS/BFS/Union-Find/Graph,Uber
+311,Escape the Spreading Fire,2258,Hard,38.5,18.0,B,Array/Binary Search/BFS/Matrix,Uber
+312,Find Minimum Time to Reach Last Room I,3341,Medium,55.4,18.0,B,Array/Graph/Heap/Shortest Path,Uber
+313,Leftmost Column with at Least a One,1428,Medium,55.3,18.0,B,Binary Search/Matrix/Interactive,Uber
+314,Minimum Edge Reversals So Every Node Is Reachable,2858,Hard,59.9,18.0,B,Dynamic Programming/DFS/BFS/Graph,Uber
+315,Minimum Number of Operations to Make Array Continuous,2009,Hard,51.8,18.0,B,Array/Hash Table/Binary Search/Sliding Window,Uber
+316,Minimum Operations to Write the Letter Y on a Grid,3071,Medium,64.6,18.0,B,Array/Hash Table/Matrix,Uber
+317,Rotating the Box,1861,Medium,82.5,18.0,B,Array/Two Pointers/Matrix,Uber
+318,Shortest Bridge,934,Medium,59.6,18.0,B,Array/DFS/BFS/Matrix,Uber
+319,Shuffle an Array,384,Medium,59.8,18.0,B,Array/Math/Design/Randomized,Uber
+320,Split Message Based on Limit,2468,Hard,42.2,18.0,B,String/Enumeration,Uber
+321,The Maze,490,Medium,60.5,18.0,B,BFS/DFS/Matrix,Uber
+322,Best Time to Buy and Sell Stock III,123,Hard,53.2,17.9,B,Array/DP,Google;Meta
+323,House Robber II,213,Medium,44.6,17.9,B,Array/Dynamic Programming,Google;Uber
+324,H-Index,274,Medium,41.2,17.5,B,Array/Sorting/Counting Sort,Google;Uber
+325,Find Eventual Safe States,802,Medium,70.3,17.2,B,DFS/BFS/Graph/Topological Sort,Google;Uber
+326,Find the Safest Path in a Grid,2812,Medium,48.6,17.0,B,Array/Binary Search/BFS/Union-Find,Google;Uber
+327,Identify the Largest Outlier in an Array,3371,Medium,36.2,17.0,B,Array/Hash Table/Counting,Amazon
+328,Continuous Subarrays,2762,Medium,57.9,16.8,B,Array/Queue/Sliding Window/Ordered Set,Google;Uber
+329,Max Area of Island,695,Medium,73.8,16.8,B,Array/DFS/BFS/Union-Find/Matrix,Google;Uber
+330,Sum of Distances in Tree,834,Hard,65.5,16.7,B,Dynamic Programming/Tree/DFS,Google;Uber
+331,Minimum Number of Increments on Subarrays to Form a Target Array,1526,Hard,78.1,16.7,B,Array/Stack/Greedy/Monotonic Stack/DP,Google
+332,Predict the Winner,486,Medium,56.1,16.3,B,Array/Math/Dynamic Programming/Game Theory,Google;Uber
+333,Repeated String Match,686,Medium,38.4,16.3,B,String/String Matching,Google;Uber
+334,Combinations,77,Medium,74.2,16.2,B,Backtracking,Google;Meta
+335,Missing Ranges,163,Easy,35.5,16.2,B,Array,Meta
+336,Maximum Number of Events That Can Be Attended,1353,Medium,38.9,16.1,B,Array/Greedy/Sorting/Heap,Google;Uber
+337,Convert Sorted Array to Binary Search Tree,108,Easy,75.2,15.9,B,Array/Divide&Conquer/Tree/BST,Google;Meta
+338,Design a Text Editor,2296,Hard,50.1,15.9,B,Linked List/String/Stack/Design,Google;Uber
+339,Valid Parenthesis String,678,Medium,39.8,15.9,B,String/Dynamic Programming/Stack/Greedy,Google;Uber
+340,Viewers Turned Streamers,2995,Hard,42.7,15.9,B,Database,Google
+341,Logger Rate Limiter,359,Easy,76.8,15.7,B,Hash Table/Design,Google
+342,Concatenated Words,472,Hard,49.7,15.5,B,Array/String/DP/DFS/Trie,Amazon
+343,Number of Visible People in a Queue,1944,Hard,72.4,15.2,B,Array/Stack/Monotonic Stack,Google
+344,Power of Two,231,Easy,49.9,15.2,B,Math/Bit Manipulation/Recursion,Google
+345,Substring with Concatenation of All Words,30,Hard,34.0,14.8,B,Hash Table/String/Sliding Window,Google;Meta
+346,Add Edges to Make Degrees of All Nodes Even,2508,Hard,36.5,14.4,B,Hash Table/Graph,Uber
+347,Array With Elements Not Equal to Average of Neighbors,1968,Medium,50.8,14.4,B,Array/Greedy/Sorting,Uber
+348,Best Time to Buy and Sell Stock using Strategy,3652,Medium,59.7,14.4,B,Array/Sliding Window/Prefix Sum,Uber
+349,Boundary of Binary Tree,545,Medium,48.1,14.4,B,Tree/DFS,Uber
+350,Calculate Digit Sum of a String,2243,Easy,67.9,14.4,B,String/Simulation,Uber
+351,Check If String Is a Prefix of Array,1961,Easy,52.9,14.4,B,Array/Two Pointers/String,Uber
+352,Check for Contradictions in Equations,2307,Hard,44.0,14.4,B,Graph/Union-Find/DFS,Uber
+353,Check if a String Is an Acronym of Words,2828,Easy,83.1,14.4,B,Array/String,Uber
+354,Construct K Palindrome Strings,1400,Medium,68.5,14.4,B,Hash Table/String/Greedy/Counting,Uber
+355,Count Paths That Can Form a Palindrome in a Tree,2791,Hard,52.6,14.4,B,Dynamic Programming/Bit Manipulation/Tree/DFS,Uber
+356,Course Schedule IV,1462,Medium,60.0,14.4,B,DFS/BFS/Graph/Topological Sort,Uber
+357,Create Binary Tree From Descriptions,2196,Medium,83.9,14.4,B,Array/Hash Table/Tree,Uber
+358,Dungeon Game,174,Hard,41.6,14.4,B,Array/Dynamic Programming/Matrix,Uber
+359,Employee Importance,690,Medium,69.6,14.4,B,Array/Hash Table/Tree/DFS/BFS,Uber
+360,Encode and Decode TinyURL,535,Medium,86.7,14.4,B,Hash Table/String/Design,Uber
+361,Excel Sheet Column Number,171,Easy,68.0,14.4,B,Math/String,Uber
+362,Factor Combinations,254,Medium,50.6,14.4,B,Backtracking,Uber
+363,Falling Squares,699,Hard,48.0,14.4,B,Array/Segment Tree/Ordered Set,Uber
+364,Fibonacci Number,509,Easy,73.9,14.4,B,Math/DP/Recursion/Memoization,Amazon
+365,Final Prices With a Special Discount in a Shop,1475,Easy,84.2,14.4,B,Array/Stack/Monotonic Stack,Uber
+366,Find Minimum Time to Reach Last Room II,3342,Medium,67.6,14.4,B,Array/Graph/Heap/Shortest Path,Uber
+367,Find Pattern in Infinite Stream I,3023,Medium,57.4,14.4,B,Sliding Window/String Matching,Uber
+368,Find Pattern in Infinite Stream II,3037,Hard,67.7,14.4,B,Sliding Window/String Matching,Uber
+369,Find the City With the Smallest Number of Neighbors at a Threshold Distance,1334,Medium,73.2,14.4,B,Dynamic Programming/Graph/Shortest Path,Uber
+370,Find the Distance Value Between Two Arrays,1385,Easy,72.0,14.4,B,Array/Two Pointers/Binary Search/Sorting,Uber
+371,Find the Number of Ways to Place People II,3027,Hard,64.4,14.4,B,Array/Math/Geometry/Sorting,Uber
+372,Fixed Point,1064,Easy,64.3,14.4,B,Array/Binary Search,Uber
+373,Hopper Company Queries I,1635,Hard,48.0,14.4,B,Database,Uber
+374,Hopper Company Queries II,1645,Hard,39.9,14.4,B,Database,Uber
+375,Hopper Company Queries III,1651,Hard,65.3,14.4,B,Database,Uber
+376,Intersection of Multiple Arrays,2248,Easy,68.8,14.4,B,Array/Hash Table/Sorting,Uber
+377,K Divisible Elements Subarrays,2261,Medium,55.1,14.4,B,Array/Hash Table/Trie,Uber
+378,Longest Palindromic Subsequence,516,Medium,65.6,14.4,B,String/Dynamic Programming,Uber
+379,Match Alphanumerical Pattern in Matrix I,3078,Medium,65.3,14.4,B,Array/Hash Table/Matrix,Uber
+380,Maximize Amount After Two Days of Conversions,3387,Medium,61.7,14.4,B,Array/String/DFS/BFS/Graph,Uber
+381,Maximize Win From Two Segments,2555,Medium,37.9,14.4,B,Array/Binary Search/Sliding Window,Uber
+382,Maximum Coin Collection ,3466,Medium,52.9,14.4,B,Array/Dynamic Programming,Uber
+383,Maximum Increasing Triplet Value,3073,Medium,36.0,14.4,B,Array/Ordered Set,Uber
+384,Maximum Number of Eaten Apples,1705,Medium,43.6,14.4,B,Array/Greedy/Heap,Uber
+385,Maximum Subarray Min-Product,1856,Medium,40.5,14.4,B,Array/Stack/Monotonic Stack/Prefix Sum,Uber
+386,Maximum XOR for Each Query,1829,Medium,84.7,14.4,B,Array/Bit Manipulation/Prefix Sum,Uber
+387,Minimum Absolute Sum Difference,1818,Medium,32.6,14.4,B,Array/Binary Search/Sorting,Uber
+388,Minimum Operations to Make Binary Array Elements Equal to One I,3191,Medium,80.4,14.4,B,Array/Bit Manipulation/Queue/Sliding Window,Uber
+389,Minimum Operations to Make Binary Array Elements Equal to One II,3192,Medium,65.3,14.4,B,Array/Dynamic Programming/Greedy,Uber
+390,Minimum Score Triangulation of Polygon,1039,Medium,67.5,14.4,B,Array/Dynamic Programming,Uber
+391,Minimum Sum of Squared Difference,2333,Medium,26.9,14.4,B,Array/Binary Search/Greedy/Heap,Uber
+392,Minimum Time to Complete Trips,2187,Medium,39.8,14.4,B,Array/Binary Search,Uber
+393,Nearest Exit from Entrance in Maze,1926,Medium,48.7,14.4,B,Array/BFS/Matrix,Uber
+394,Number Of Ways To Reconstruct A Tree,1719,Hard,46.1,14.4,B,Array/Hash Table/Tree/Graph,Uber
+395,Number of Black Blocks,2768,Medium,42.0,14.4,B,Array/Hash Table/Enumeration,Uber
+396,Number of Nodes in the Sub-Tree With the Same Label,1519,Medium,55.5,14.4,B,Hash Table/Tree/DFS/BFS,Uber
+397,Number of People That Can Be Seen in a Grid,2282,Medium,47.4,14.4,B,Array/Stack/Matrix/Monotonic Stack,Uber
+398,Number of Strings That Appear as Substrings in Word,1967,Easy,86.1,14.4,B,Array/String,Uber
+399,Number of Ways to Reach Destination in the Grid,2912,Hard,57.7,14.4,B,Dynamic Programming/Matrix,Uber
+400,One Edit Distance,161,Medium,34.6,14.4,B,Two Pointers/String,Uber
+401,Optimal Account Balancing,465,Hard,50.5,14.4,B,Backtracking/Bit Manipulation,Uber
+402,Palindrome Permutation,266,Easy,68.7,14.4,B,Hash Table/String,Uber
+403,Parallel Courses,1136,Medium,62.3,14.4,B,Graph/Topological Sort,Uber
+404,Plates Between Candles,2055,Medium,47.3,14.4,B,Array/String/Prefix Sum/Binary Search,Amazon
+405,Points That Intersect With Cars,2848,Easy,73.5,14.4,B,Array/Hash Table/Prefix Sum,Uber
+406,Random Pick with Blacklist,710,Hard,35.1,14.4,B,Array/Hash Table/Math/Binary Search,Uber
+407,Remove Max Number of Edges to Keep Graph Fully Traversable,1579,Hard,70.2,14.4,B,Union-Find/Graph,Uber
+408,Remove Zero Sum Consecutive Nodes from Linked List,1171,Medium,53.2,14.4,B,Hash Table/Linked List,Uber
+409,Replace Words,648,Medium,68.8,14.4,B,Array/Hash Table/String/Trie,Uber
+410,Reverse Words in a String II,186,Medium,56.7,14.4,B,Two Pointers/String,Uber
+411,The Maze II,505,Medium,55.1,14.4,B,Graph/BFS/Heap/Shortest Path,Uber
+412,Trips and Users,262,Hard,38.6,14.4,C,Database,Uber
+413,Walls and Gates,286,Medium,64.1,14.4,C,BFS/Matrix,Uber
+414,Word Pattern,290,Easy,44.3,14.4,C,Hash Table/String,Uber
+415,Word Pattern II,291,Medium,48.9,14.4,C,Hash Table/String/Backtracking,Uber
+416,Combine Two Tables,175,Easy,79.2,14.1,C,Database,Amazon
+417,Flatten Binary Tree to Linked List,114,Medium,70.2,14.0,C,Linked List/Stack/Tree/DFS,Google;Meta
+418,Search Suggestions System,1268,Medium,65.1,13.9,C,Array/String/Trie/Sorting,Amazon
+419,Make Array Zero by Subtracting Equal Amounts,2357,Easy,73.7,13.7,C,Array/Hash Table/Greedy/Sorting,Amazon
+420,Continuous Subarray Sum,523,Medium,31.2,13.6,C,Array/Hash Table/Prefix Sum,Meta
+421,Convert Binary Search Tree to Sorted Doubly Linked List,426,Medium,65.6,13.6,C,Linked List/Stack/Tree/BST/DFS,Meta
+422,Find All Numbers Disappeared in an Array,448,Easy,63.8,13.6,C,Array/Hash Table,Google
+423,Insert into a Sorted Circular Linked List,708,Medium,38.5,13.6,C,Linked List,Meta
+424,Remove Invalid Parentheses,301,Hard,49.8,13.6,C,String/Backtracking/BFS,Meta
+425,Second Highest Salary,176,Medium,46.4,13.6,C,Database,Amazon
+426,Fizz Buzz,412,Easy,75.3,13.4,C,Math/String/Simulation,Amazon
+427,Guess the Word,843,Hard,36.9,13.4,C,Array/Math/Interactive/Game Theory,Google
+428,Separate Squares I,3453,Medium,58.0,13.3,C,Array/Math/Binary Search/Geometry,Google
+429,Article Views I,1148,Easy,76.7,13.2,C,Database,Amazon
+430,The kth Factor of n,1492,Medium,70.2,13.2,C,Math,Amazon
+431,Employees Earning More Than Their Managers,181,Easy,72.9,13.1,C,Database,Amazon
+432,Minimum Health to Beat Game,2214,Medium,58.8,13.1,C,Array/Greedy,Amazon
+433,Reverse Vowels of a String,345,Easy,60.7,13.1,C,Two Pointers/String,Google
+434,Sort an Array,912,Medium,55.9,13.1,C,Array/Divide&Conquer/Sorting/Heap/Merge Sort/Counting Sort/Radix Sort,Google
+435,Minimum Area Rectangle,939,Medium,55.3,13.0,C,Array/Hash Table/Math/Geometry/Sorting,Google
+436,Partition Labels,763,Medium,81.8,12.7,C,Hash Table/Two Pointers/String/Greedy,Amazon
+437,Range Module,715,Hard,44.7,12.5,C,Design/Segment Tree/Ordered Set,Google
+438,Power of Three,326,Easy,50.7,12.4,C,Math/Recursion,Google
+439,Finding MK Average,1825,Hard,38.7,12.3,C,Hash Table/Design/Ordered Set,Google
+440,Move Pieces to Obtain a String,2337,Medium,56.7,12.3,C,Two Pointers/String,Google
+441,Boats to Save People,881,Medium,61.4,12.2,C,Array/Two Pointers/Greedy/Sorting,Amazon
+442,Find the Difference,389,Easy,60.1,12.1,C,Hash Table/String/Bit Manipulation/Sorting,Google
+443,Greatest Common Divisor of Strings,1071,Easy,53.4,12.1,C,Math/String,Google
+444,Critical Connections in a Network,1192,Hard,59.3,12.0,C,Graph/DFS/Biconnected Component,Amazon
+445,Delete Nodes And Return Forest,1110,Medium,72.5,11.9,C,Tree/DFS/Hash Table,Google
+446,Cutting Ribbons,1891,Medium,53.0,11.8,C,Array/Binary Search,Meta
+447,Kth Smallest Element in a Sorted Matrix,378,Medium,64.4,11.8,C,Array/Binary Search/Matrix/Heap,Meta
+448,Managers with at Least 5 Direct Reports,570,Medium,48.9,11.8,C,Database,Meta
+449,Product of Two Run-Length Encoded Arrays,1868,Medium,59.6,11.8,C,Array/Two Pointers,Meta
+450,Swap Adjacent in LR String,777,Medium,37.9,11.8,C,Two Pointers/String,Google
+451,Valid Palindrome III,1216,Hard,49.1,11.8,C,String/DP,Meta
+452,Zero Array Transformation III,3362,Medium,54.9,11.8,C,Array/Greedy/Sorting/Heap,Meta
+453,First Bad Version,278,Easy,46.9,11.5,C,Binary Search/Interactive,Google
+454,Perfect Squares,279,Medium,56.3,11.5,C,Math/DP/BFS,Google
+455,Summary Ranges,228,Easy,53.9,11.3,C,Array,Google
+456,Single Number II,137,Medium,66.7,11.2,C,Array/Bit Manipulation,Google
+457,Implement Stack using Queues,225,Easy,69.4,11.1,C,Stack/Design/Queue,Google
+458,Can Place Flowers,605,Easy,29.1,11.0,C,Array/Greedy,Google
+459,Coin Change II,518,Medium,60.4,11.0,C,Array/DP,Google
+460,Count Square Submatrices with All Ones,1277,Medium,80.7,10.9,C,Array/DP/Matrix,Google
+461,Minimum Area Rectangle II,963,Medium,55.9,10.9,C,Array/Math/Geometry,Google
+462,Sum of Two Integers,371,Medium,55.1,10.9,C,Math/Bit Manipulation,Google
+463,Brightest Position on Street,2021,Medium,60.7,10.8,C,Array/Sweep Line/Prefix Sum,Uber
+464,Candy Crush,723,Medium,77.6,10.8,C,Array/Two Pointers/Matrix/Simulation,Uber
+465,Collect Coins in a Tree,2603,Hard,40.4,10.8,C,Array/Tree/Graph/Topological Sort,Uber
+466,Count Nice Pairs in an Array,1814,Medium,48.4,10.8,C,Array/Hash Table/Math,Uber
+467,Count the Number of Good Subarrays,2537,Medium,65.7,10.8,C,Array/Hash Table/Sliding Window,Uber
+468,Design Browser History,1472,Medium,78.4,10.8,C,Array/Linked List/Stack/Design,Uber
+469,Design File System,1166,Medium,65.2,10.8,C,Hash Table/String/Trie/Design,Uber
+470,Design Memory Allocator,2502,Medium,50.3,10.8,C,Array/Hash Table/Design/Simulation,Uber
+471,Exam Room,855,Medium,43.6,10.8,C,Design/Heap/Ordered Set,Uber
+472,Find the Length of the Longest Common Prefix,3043,Medium,62.3,10.8,C,Array/Hash Table/String/Trie,Uber
+473,Is Graph Bipartite?,785,Medium,59.5,10.8,C,DFS/BFS/Union-Find/Graph,Uber
+474,Length of Longest Subarray With at Most K Frequency,2958,Medium,56.7,10.8,C,Array/Hash Table/Sliding Window,Uber
+475,Longest Path With Different Adjacent Characters,2246,Hard,54.0,10.8,C,Array/String/Tree/DFS/Graph,Uber
+476,Maximum Earnings From Taxi,2008,Medium,46.6,10.8,C,Array/Hash Table/Binary Search/Dynamic Programming,Uber
+477,Min Cost to Connect All Points,1584,Medium,71.2,10.8,C,Array/Union-Find/Graph/MST,Uber
+478,Minimum Absolute Difference Between Elements With Constraint,2817,Medium,37.8,10.8,C,Array/Binary Search/Ordered Set,Uber
+479,Minimum Cost For Tickets,983,Medium,67.4,10.8,C,Array/Dynamic Programming,Uber
+480,Minimum Operations to Reduce an Integer to 0,2571,Medium,62.8,10.8,C,Dynamic Programming/Greedy/Bit Manipulation,Uber
+481,Most Profitable Path in a Tree,2467,Medium,67.3,10.8,C,Array/Tree/DFS/Graph,Uber
+482,Number of Adjacent Elements With the Same Color,2672,Medium,59.9,10.8,C,Array,Uber
+483,Number of Flowers in Full Bloom,2251,Hard,58.0,10.8,C,Array/Hash Table/Binary Search/Prefix Sum,Uber
+484,Patching Array,330,Hard,54.4,10.8,C,Array/Greedy,Uber
+485,Replace Non-Coprime Numbers in Array,2197,Hard,57.6,10.8,C,Array/Math/Stack/Number Theory,Uber
+486,Rotated Digits,788,Medium,64.0,10.8,C,Math/Dynamic Programming,Uber
+487,Sliding Puzzle,773,Hard,74.5,10.8,C,Array/Dynamic Programming/Backtracking/BFS,Uber
+488,Smallest String With Swaps,1202,Medium,60.8,10.8,C,Array/Hash Table/String/Union-Find,Uber
+489,Time Needed to Buy Tickets,2073,Easy,72.8,10.8,C,Array/Queue/Simulation,Uber
+490,Verifying an Alien Dictionary,953,Easy,56.0,10.8,C,Array/Hash Table/String,Uber
+491,Water and Jug Problem,365,Medium,45.8,10.8,C,Math/DFS/BFS,Uber
+492,Find All Duplicates in an Array,442,Medium,76.8,10.7,C,Array/Hash Table,Google
+493,Odd Even Jump,975,Hard,41.1,10.7,C,Array/DP/Stack/Monotonic Stack/Ordered Set,Google
+494,Path With Minimum Effort,1631,Medium,62.8,10.7,C,Array/Binary Search/DFS/BFS/Union Find/Heap/Matrix,Google
+495,Permutation Sequence,60,Hard,52.2,10.7,C,Math/Backtracking,Google
+496,Race Car,818,Hard,44.6,10.7,C,DP/BFS,Google
+497,Binary Subarrays With Sum,930,Medium,68.3,10.6,C,Array/Hash Table/Sliding Window/Prefix Sum,Google
+498,Assign Cookies,455,Easy,54.7,10.4,C,Greedy/Array/Two Pointers/Sorting,Google
+499,Implement Queue using Stacks,232,Easy,69.4,10.4,C,Stack/Design/Queue,Google
+500,Network Delay Time,743,Medium,59.8,10.4,C,Graph/DFS/BFS/Heap/Shortest Path,Google
+501,Redundant Connection,684,Medium,67.3,10.4,C,DFS/BFS/Union Find/Graph,Google
+502,Delete Node in a Linked List,237,Medium,83.6,10.3,C,Linked List,Google
+503,Find And Replace in String,833,Medium,50.9,10.3,C,Array/String/Sorting,Google
+504,Minimum Number of Operations to Move All Balls to Each Box,1769,Medium,90.1,10.3,C,Array/String/Prefix Sum,Google
+505,Minimum Time to Finish the Race,2188,Hard,43.3,10.3,C,Array/DP,Google
+506,Repeated Substring Pattern,459,Easy,47.9,10.3,C,String/String Matching,Google
+507,Design Tic-Tac-Toe,348,Medium,58.7,10.2,C,Array/Hash Table/Design/Matrix,Meta
+508,Shortest Distance from All Buildings,317,Hard,44.9,10.2,C,Array/BFS/Matrix,Meta
+509,Domino and Tromino Tiling,790,Medium,51.4,10.1,C,DP,Google
+510,Snapshot Array,1146,Medium,36.7,10.1,C,Array/Hash Table/Binary Search/Design,Google
+511,Triangle,120,Medium,59.9,10.1,C,Array/DP,Google
+512,Backspace String Compare,844,Easy,49.8,10.0,C,Two Pointers/String/Stack,Google
+513,Best Time to Buy and Sell Stock with Cooldown,309,Medium,61.7,10.0,C,Array/DP,Google
+514,Combination Sum IV,377,Medium,55.0,10.0,C,Array/DP,Google
+515,Detect Squares,2013,Medium,52.3,10.0,C,Array/Hash Table/Design/Counting,Google
+516,Minimum Depth of Binary Tree,111,Easy,52.4,10.0,C,Tree/DFS/BFS,Meta
+517,Remove Duplicate Letters,316,Medium,52.8,10.0,C,String/Stack/Greedy/Monotonic Stack,Google
+518,Set Mismatch,645,Easy,44.2,10.0,C,Array/Hash Table/Bit Manipulation/Sorting,Google
+519,Single-Threaded CPU,1834,Medium,47.4,10.0,C,Array/Sorting/Heap,Google
+520,Car Fleet,853,Medium,54.8,9.8,C,Array/Stack/Sorting/Monotonic Stack,Google
+521,Count Days Without Meetings,3169,Medium,48.1,9.8,C,Array/Sorting,Google
+522,Count of Smaller Numbers After Self,315,Hard,43.3,9.8,C,Array/Binary Search/Divide&Conquer/Merge Sort/BIT,Google
+523,Nth Digit,400,Medium,37.3,9.8,C,Math/Binary Search,Google
+524,Number of Closed Islands,1254,Medium,67.0,9.8,C,Array/DFS/BFS/Union Find/Matrix,Google
+525,Binary Tree Paths,257,Easy,68.2,9.6,C,Tree/DFS/String/Backtracking,Google
+526,Find Pivot Index,724,Easy,62.1,9.6,C,Array/Prefix Sum,Google
+527,Fraction to Recurring Decimal,166,Medium,30.6,9.6,C,Hash Table/Math/String,Google
+528,Height of Binary Tree After Subtree Removal Queries,2458,Hard,54.9,9.6,C,Array/Tree/DFS/BFS,Google
+529,Linked List Random Node,382,Medium,64.7,9.6,C,Linked List/Math/Reservoir Sampling/Randomized,Google
+530,Maximum XOR of Two Numbers in an Array,421,Medium,53.4,9.6,C,Array/Hash Table/Bit Manipulation/Trie,Google
+531,Sequence Reconstruction,444,Medium,30.5,9.6,C,Graph/Topological Sort,Google
+532,Shortest Unsorted Continuous Subarray,581,Medium,38.0,9.6,C,Array/Two Pointers/Stack/Greedy/Sorting/Monotonic Stack,Google
+533,Android Unlock Patterns,351,Medium,53.7,9.4,C,DP/Backtracking/Bit Manipulation,Google
+534,Champagne Tower,799,Medium,64.1,9.4,C,DP,Google
+535,Design a Stack With Increment Operation,1381,Medium,79.9,9.4,C,Array/Stack/Design,Google
+536,Encode and Decode Strings,271,Medium,51.2,9.4,C,Array/String/Design,Google
+537,Partition List,86,Medium,60.6,9.4,C,Linked List/Two Pointers,Google
+538,Remove Linked List Elements,203,Easy,53.9,9.4,C,Linked List/Recursion,Google
+539,Unique Length-3 Palindromic Subsequences,1930,Medium,73.8,9.4,C,Hash Table/String/Bit Manipulation/Prefix Sum,Google
+540,Excel Sheet Column Title,168,Easy,45.8,9.2,C,Math/String,Google
+541,Find Duplicate Subtrees,652,Medium,60.6,9.2,C,Tree/DFS/Hash Table,Google
+542,Goat Latin,824,Easy,69.9,9.2,C,String,Meta
+543,Longest Palindrome,409,Easy,55.8,9.2,C,Hash Table/String/Greedy,Google
+544,Partition Array Into Two Arrays to Minimize Sum Difference,2035,Hard,23.0,9.2,C,Array/Two Pointers/Binary Search/DP/Bitmask,Google
+545,Random Pick Index,398,Medium,65.0,9.2,C,Hash Table/Math/Reservoir Sampling/Randomized,Meta
+546,Remove All Adjacent Duplicates in String II,1209,Medium,60.9,9.2,C,String/Stack,Meta
+547,Shortest Path Visiting All Nodes,847,Hard,65.8,9.2,C,DP/BFS/Bit Manipulation/Graph/Bitmask,Google
+548,Shortest Path in a Hidden Grid,1778,Medium,44.5,9.2,C,Array/DFS/BFS/Interactive,Meta
+549,Time Taken to Cross the Door,2534,Hard,50.1,9.2,C,Array/Simulation/Queue,Google
+550,Toeplitz Matrix,766,Easy,69.7,9.2,C,Array/Matrix,Meta
+551,Count Numbers with Unique Digits,357,Medium,55.4,9.1,C,Math/DP/Backtracking,Google
+552,Delete Nodes From Linked List Present in Array,3217,Medium,69.5,9.1,C,Array/Hash Table/Linked List,Google
+553,Graph Valid Tree,261,Medium,49.8,9.1,C,Graph/DFS/BFS/Union Find,Google
+554,Keys and Rooms,841,Medium,75.5,9.1,C,DFS/BFS/Graph,Google
+555,Queue Reconstruction by Height,406,Medium,74.6,9.1,C,Array/Sorting/BIT/Segment Tree,Google
+556,Recover Binary Search Tree,99,Medium,58.8,9.1,C,Tree/DFS/BST/BFS,Google
+557,Remove Sub-Folders from the Filesystem,1233,Medium,78.6,9.1,C,Array/String/Trie,Google
+558,Find in Mountain Array,1095,Hard,41.2,8.9,C,Array/Binary Search/Interactive,Google
+559,Flatten Nested List Iterator,341,Medium,65.6,8.9,C,Stack/Tree/DFS/Design/Queue/Iterator,Google
+560,Increasing Triplet Subsequence,334,Medium,39.2,8.9,C,Array/Greedy,Google
+561,Longest Absolute File Path,388,Medium,49.2,8.9,C,String/Stack/DFS,Google
+562,Longest Arithmetic Subsequence of Given Difference,1218,Medium,54.3,8.9,C,Array/Hash Table/DP,Google
+563,Maximum Sum of 3 Non-Overlapping Subarrays,689,Hard,59.7,8.9,C,Array/DP,Google
+564,Minimum Falling Path Sum,931,Medium,60.8,8.9,C,Array/DP/Matrix,Google
+565,Minimum Interval to Include Each Query,1851,Hard,54.0,8.9,C,Array/Binary Search/Sorting/Heap,Google
+566,New 21 Game,837,Medium,52.0,8.9,C,Math/DP/Sliding Window/Probability,Google
+567,Number of 1 Bits,191,Easy,76.4,8.9,C,Divide&Conquer/Bit Manipulation,Google
+568,K-th Smallest in Lexicographical Order,440,Hard,46.2,8.6,C,Trie/Math/DFS,Google
+569,Max Chunks To Make Sorted,769,Medium,64.1,8.6,C,Array/Stack/Greedy/Sorting/Monotonic Stack,Google
+570,Max Points on a Line,149,Hard,30.3,8.6,C,Array/Hash Table/Math/Geometry,Meta
+571,Maximum Level Sum of a Binary Tree,1161,Medium,70.0,8.6,C,Tree/DFS/BFS,Google
+572,Minimum Absolute Difference in BST,530,Easy,59.2,8.6,C,Tree/DFS/BST/BFS,Google
+573,Minimum Domino Rotations For Equal Row,1007,Medium,56.5,8.6,C,Array/Greedy,Google
+574,Path Sum III,437,Medium,46.3,8.6,C,Tree/DFS/Prefix Sum,Google
+575,Range Sum Query 2D - Immutable,304,Medium,57.9,8.6,C,Array/Design/Matrix/Prefix Sum,Google
+576,Snakes and Ladders,909,Medium,48.0,8.6,C,Array/BFS/Matrix,Google
+577,Delete the Middle Node of a Linked List,2095,Medium,59.5,8.4,C,Linked List/Two Pointers,Google
+578,Intersection of Two Arrays II,350,Easy,59.7,8.4,C,Array/Hash Table/Two Pointers/Sorting,Google
+579,Longest Duplicate Substring,1044,Hard,31.1,8.4,C,String/Binary Search/Rolling Hash/Suffix Array,Google
+580,Minimum Operations to Reduce X to Zero,1658,Medium,40.4,8.4,C,Array/Hash Table/Binary Search/Sliding Window/Prefix Sum,Google
+581,Remove Duplicates from Sorted List II,82,Medium,51.3,8.4,C,Linked List/Two Pointers,Google
+582,Convert Sorted List to Binary Search Tree,109,Medium,66.0,7.8,C,Linked List/Divide&Conquer/Tree/BST,Meta
+583,Restore IP Addresses,93,Medium,55.3,7.8,C,String/Backtracking,Meta
+584,2 Keys Keyboard,650,Medium,59.4,7.2,C,Math/Dynamic Programming,Uber
+585,Amount of New Area Painted Each Day,2158,Hard,55.7,7.2,C,Array/Hash Table/Ordered Set,Uber
+586,Amount of Time for Binary Tree to Be Infected,2385,Medium,65.6,7.2,C,Hash Table/Tree/DFS/BFS,Uber
+587,Binary Tree Longest Consecutive Sequence II,549,Medium,50.1,7.2,C,Tree/DFS/Binary Tree,Uber
+588,Bomb Enemy,361,Medium,52.8,7.2,C,Array/Dynamic Programming/Matrix,Uber
+589,Cache With Time Limit,2622,Medium,76.2,7.2,C,Design/JavaScript,Uber
+590,Can I Win,464,Medium,31.5,7.2,C,Math/Dynamic Programming/Bit Manipulation/Game Theory/Memoization,Uber
+591,Check if the Rectangle Corner Is Reachable,3235,Hard,25.2,7.2,C,Array/Math/DFS/BFS/Union-Find,Uber
+592,Cherry Pickup II,1463,Hard,72.5,7.2,C,Array/Dynamic Programming/Matrix,Uber
+593,Complete Binary Tree Inserter,919,Medium,65.1,7.2,C,Tree/BFS/Design,Uber
+594,Count Binary Substrings,696,Easy,70.5,7.2,C,Two Pointers/String,Uber
+595,Count Different Palindromic Subsequences,730,Hard,48.0,7.2,C,String/Dynamic Programming,Uber
+596,Count Integers in Intervals,2276,Hard,36.0,7.2,C,Design/Segment Tree/Ordered Set,Uber
+597,Count Palindromic Subsequences,2484,Hard,41.3,7.2,C,String/Dynamic Programming,Uber
+598,Count Prefix and Suffix Pairs II,3045,Hard,28.6,7.2,C,Array/String/Trie/Rolling Hash,Uber
+599,Create Target Array in the Given Order,1389,Easy,86.5,7.2,C,Array/Simulation,Uber
+600,Design A Leaderboard,1244,Medium,68.1,7.2,C,Hash Table/Design/Sorting,Uber
+601,Design Search Autocomplete System,642,Hard,50.0,7.2,C,Hash Table/String/Trie/Design,Uber
+602,Design Snake Game,353,Medium,40.0,7.2,C,Array/Hash Table/Design/Queue/Simulation,Uber
+603,Design Twitter,355,Medium,45.0,7.2,C,Hash Table/Linked List/Design/Heap,Uber
+604,Find All People With Secret,2092,Hard,48.4,7.2,C,DFS/BFS/Union-Find/Graph/Sorting,Uber
+605,Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree,1489,Hard,66.6,7.2,C,Union-Find/Graph/Sorting/MST,Uber
+606,Find the Celebrity,277,Medium,49.0,7.2,C,Two Pointers/Graph/Interactive,Uber
+607,Find the Maximum Length of Valid Subsequence II,3202,Medium,57.1,7.2,C,Array/Dynamic Programming,Uber
+608,Find the Most Competitive Subsequence,1673,Medium,53.1,7.2,C,Array/Stack/Greedy/Monotonic Stack,Uber
+609,Freedom Trail,514,Hard,59.4,7.2,C,String/Dynamic Programming/DFS/Breadth-First Search,Uber
+610,Furthest Building You Can Reach,1642,Medium,51.0,7.2,C,Array/Greedy/Heap,Uber
+611,Get Biggest Three Rhombus Sums in a Grid,1878,Medium,71.3,7.2,C,Array/Math/Sorting/Prefix Sum,Uber
+612,Graph Connectivity With Threshold,1627,Hard,49.7,7.2,C,Array/Math/Union-Find/Number Theory,Uber
+613,Human Traffic of Stadium,601,Hard,51.5,7.2,C,Database,Uber
+614,IPO,502,Hard,53.6,7.2,C,Array/Greedy/Sorting/Heap,Uber
+615,Insert Delete GetRandom O(1) - Duplicates allowed,381,Hard,36.7,7.2,C,Array/Hash Table/Math/Design,Uber
+616,Integer Replacement,397,Medium,37.7,7.2,C,Dynamic Programming/Greedy/Bit Manipulation/Memoization,Uber
+617,Kth Smallest Number in Multiplication Table,668,Hard,54.3,7.2,C,Math/Binary Search,Uber
+618,Largest 1-Bordered Square,1139,Medium,52.2,7.2,C,Array/Dynamic Programming/Matrix,Uber
+619,Linked List Components,817,Medium,58.0,7.2,C,Array/Hash Table/Linked List,Uber
+620,Magnetic Force Between Two Balls,1552,Medium,72.3,7.2,C,Array/Binary Search/Sorting,Uber
+621,Matchsticks to Square,473,Medium,42.0,7.2,C,Array/Dynamic Programming/Backtracking/Bit Manipulation,Uber
+622,Maximize Sum Of Array After K Negations,1005,Easy,54.0,7.2,C,Array/Greedy/Sorting,Uber
+623,Maximum Frequency Stack,895,Hard,66.9,7.2,C,Hash Table/Stack/Design,Uber
+624,Maximum Manhattan Distance After K Changes,3443,Medium,54.2,7.2,C,Hash Table/Math/String/Counting,Uber
+625,Maximum Number of Accepted Invitations,1820,Medium,52.7,7.2,C,Array/Graph/Matrix,Uber
+626,Maximum Number of Points From Grid Queries,2503,Hard,59.3,7.2,C,Array/Two Pointers/BFS/Union-Find/Heap,Uber
+627,Meeting Rooms,252,Easy,59.5,7.2,C,Array/Sorting,Uber
+628,Meeting Scheduler,1229,Medium,55.2,7.2,C,Array/Two Pointers/Sorting,Uber
+629,Minimize Malware Spread,924,Hard,43.3,7.2,C,Array/Hash Table/DFS/BFS/Union-Find,Uber
+630,Minimize Malware Spread II,928,Hard,45.7,7.2,C,Array/Hash Table/DFS/BFS/Union-Find,Uber
+631,Minimum Cost to Merge Stones,1000,Hard,46.4,7.2,C,Array/Dynamic Programming/Prefix Sum,Uber
+632,Minimum Difference in Sums After Removal of Elements,2163,Hard,69.6,7.2,C,Array/Dynamic Programming/Heap,Uber
+633,Minimum Jumps to Reach End via Prime Teleportation,3629,Medium,44.6,7.2,C,Array/Hash Table/Math/BFS,Uber
+634,Minimum Number of Changes to Make Binary String Beautiful,2914,Medium,76.4,7.2,C,String,Uber
+635,Minimum Number of Taps to Open to Water a Garden,1326,Hard,51.0,7.2,C,Array/Dynamic Programming/Greedy,Uber
+636,My Calendar II,731,Medium,63.3,7.2,C,Array/Binary Search/Design/Prefix Sum,Uber
+637,Number of Distinct Substrings in a String,1698,Medium,64.7,7.2,C,String/Trie/Rolling Hash/Suffix Array,Uber
+638,Number of Subarrays That Match a Pattern I,3034,Medium,68.7,7.2,C,Array/Rolling Hash/String Matching,Uber
+639,Number of Subarrays with Bounded Maximum,795,Medium,55.1,7.2,C,Array/Two Pointers,Uber
+640,Ones and Zeroes,474,Medium,53.5,7.2,C,Array/String/Dynamic Programming,Uber
+641,Paint House,256,Medium,64.5,7.2,C,Array/Dynamic Programming,Uber
+642,Path Sum,112,Easy,54.5,7.2,C,Tree/DFS/BFS,Meta
+643,Possible Bipartition,886,Medium,52.8,7.2,C,DFS/BFS/Union-Find/Graph,Uber
+644,Process Restricted Friend Requests,2076,Hard,60.9,7.2,C,Union-Find/Graph,Uber
+645,Promise Pool,2636,Medium,79.4,7.2,C,JavaScript/Concurrency,Uber
+646,Put Marbles in Bags,2551,Hard,72.1,7.2,C,Array/Greedy/Sorting/Heap,Uber
+647,Random Point in Non-overlapping Rectangles,497,Medium,40.0,7.2,C,Array/Math/Binary Search/Randomized,Uber
+648,Rearranging Fruits,2561,Hard,57.3,7.2,C,Array/Hash Table/Greedy/Sorting,Uber
+649,Remove Comments,722,Medium,40.2,7.2,C,Array/String,Uber
+650,Replace Employee ID With The Unique Identifier,1378,Easy,83.6,7.2,C,Database,Uber
+651,Shortest Path to Get All Keys,864,Hard,54.7,7.2,C,Array/Bit Manipulation/BFS/Matrix,Uber
+652,Simple Bank System,2043,Medium,69.7,7.2,C,Array/Hash Table/Design/Simulation,Uber
+653,Spiral Matrix III,885,Medium,84.6,7.2,C,Array/Matrix/Simulation,Uber
+654,Stone Game II,1140,Medium,72.8,7.2,C,Array/Math/Dynamic Programming/Game Theory/Prefix Sum,Uber
+655,Strange Printer,664,Hard,61.0,7.2,C,String/Dynamic Programming,Uber
+656,Strobogrammatic Number II,247,Medium,53.5,7.2,C,Recursion/Math,Uber
+657,Sum of Left Leaves,404,Easy,62.9,7.2,C,Tree/DFS/BFS,Uber
+658,Task Scheduler II,2365,Medium,54.9,7.2,C,Array/Hash Table/Simulation,Uber
+659,Path Sum II,113,Medium,61.8,5.9,C,Backtracking/Tree/DFS,Meta
+660,Permutations II,47,Medium,63.0,5.3,C,Array/Backtracking/Sorting,Meta
+661,Unique Binary Search Trees II,95,Medium,62.0,4.6,C,DP/Tree/BST/Backtracking,Meta
+662,Pascal's Triangle II,119,Easy,67.1,4.1,C,Array/DP,Meta
+663,Spiral Matrix II,59,Medium,74.7,3.9,C,Array/Matrix/Simulation,Meta
+664,Binary Tree Level Order Traversal II,107,Medium,67.7,2.2,C,Tree/BFS/Binary Tree,Meta
